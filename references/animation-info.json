@@ -1,0 +1,20 @@
+{
+  "skin": "至高真神·谱尼",
+  "skinId": 1400714,
+  "frames": 64,
+  "fps": 24,
+  "duration": 2.6666666666666665,
+  "cell": 512,
+  "columns": 8,
+  "rows": 8,
+  "originalStage": [
+    960,
+    579
+  ],
+  "bounds": {
+    "x": 173,
+    "y": 6,
+    "width": 617,
+    "height": 573
+  }
+}

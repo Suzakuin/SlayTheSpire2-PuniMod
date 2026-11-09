@@ -1,0 +1,17 @@
+{
+  "id": "PuniMod",
+  "name": "谱尼 · 七重封印",
+  "author": "Puni Fan Mod",
+  "description": "谱尼：九张卡牌重做，含自选免费出牌并强制刻印、解封触发能力、X力量和烧牌转圣灵；91张卡、57张刻印、27段先古对白。",
+  "version": "0.4.0",
+  "min_game_version": "0.111.0",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": [
+    {
+      "id": "BaseLib",
+      "min_version": "3.4.7"
+    }
+  ],
+  "affects_gameplay": true
+}

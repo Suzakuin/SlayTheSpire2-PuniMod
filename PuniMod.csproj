@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <LangVersion>13.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>PuniMod</AssemblyName>
+    <Version>0.4.0</Version>
+    <GameDir Condition="'$(GameDir)' == ''">E:\steam\steamapps\common\Slay the Spire 2</GameDir>
+    <GameData>$(GameDir)\data_sts2_windows_x86_64</GameData>
+    <BaseLibPath Condition="'$(BaseLibPath)' == ''">dependencies\BaseLib.dll</BaseLibPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="sts2" HintPath="$(GameData)\sts2.dll" Private="false" />
+    <Reference Include="GodotSharp" HintPath="$(GameData)\GodotSharp.dll" Private="false" />
+    <Reference Include="0Harmony" HintPath="$(GameData)\0Harmony.dll" Private="false" />
+    <Reference Include="BaseLib" HintPath="$(BaseLibPath)" Private="false" />
+  </ItemGroup>
+</Project>
+
+
+
+
