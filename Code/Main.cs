@@ -25,7 +25,7 @@ public static class Main
     public static void Initialize()
     {
         new Harmony(Id).PatchAll(Assembly.GetExecutingAssembly());
-        Logger.Info("谱尼 v0.3.6 — 七重封印 / v0.111.0");
+        Logger.Info("谱尼 · 七重封印已加载");
     }
 }
 

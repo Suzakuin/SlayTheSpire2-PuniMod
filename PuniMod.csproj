@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <AssemblyName>PuniMod</AssemblyName>
-    <Version>0.4.0</Version>
+    <Version>0.4.1</Version>
     <GameDir Condition="'$(GameDir)' == ''">E:\steam\steamapps\common\Slay the Spire 2</GameDir>
     <GameData>$(GameDir)\data_sts2_windows_x86_64</GameData>
     <BaseLibPath Condition="'$(BaseLibPath)' == ''">dependencies\BaseLib.dll</BaseLibPath>
