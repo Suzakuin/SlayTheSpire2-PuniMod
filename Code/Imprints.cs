@@ -69,12 +69,14 @@ public abstract partial class PuniCard
                 await PowerCmd.Decrement(edict!);
                 TemporaryEdictPower.RefreshHand(Owner.Creature);
             }
+            PuniCombatEffects.Card(this,play);
             await PlayBase(context,play);
             foreach(var imprint in Spec.Imprints??[])
             {
                 if((!boosted&&!_forceImprint&&imprint.Seal>seals)||Owner.Creature.IsDead)continue;
                 for(int trigger=0;trigger<(boosted?2:1);trigger++) {
                     if(imprint.Effect!="VolleyMarks")await RepeatImprint(context,play,imprint);
+                    else if(_imprintVolleyHits>0)PuniCombatEffects.Imprint(Owner.Creature,imprint.Seal,imprint.Seal>ActiveSealCount);
                     foreach(var listener in Owner.Creature.Powers.OfType<IImprintListener>().ToArray())
                         await listener.AfterImprint(context,play,this,imprint);
                 }
@@ -95,6 +97,7 @@ public abstract partial class PuniCard
     // Repeats only the bonus, without paying/playing the card or invoking listeners.
     public async Task RepeatImprint(PlayerChoiceContext ctx,CardPlay play,SealImprint imprint)
     {
+        PuniCombatEffects.Imprint(Owner.Creature,imprint.Seal,imprint.Seal>ActiveSealCount);
         int n=imprint.Value(IsUpgraded);
         switch(imprint.Effect)
         {
@@ -118,7 +121,10 @@ public abstract partial class PuniCard
             case "Weak": await Debuff<WeakPower>(ctx,play.Target,n); break;
             case "Attack": await Attack(ctx,play,damage:n); break;
             case "AllAttack": await Attack(ctx,play,true,n); break;
-            case "Fixed": await Fixed(ctx,play.Target,n); break;
+            case "Fixed":
+                if(this is HolySpiritFlash&&play.Target is {IsDead:false} target)PuniCombatEffects.HolyImpact(target);
+                await Fixed(ctx,play.Target,n);
+                break;
             case "AllFixed": foreach(var enemy in CombatState!.HittableEnemies.ToArray())await Fixed(ctx,enemy,n); break;
             case "SpiritStrike": await Attack(ctx,play,damage:DynamicVars.Damage.BaseValue+Owner.Creature.GetPowerAmount<SealProgressPower>()); break;
             case "CleanseArtifact": await SealProgressPower.Cleanse(Owner.Creature); await Power<ArtifactPower>(ctx,n); break;

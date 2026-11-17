@@ -28,6 +28,7 @@ public abstract partial class PuniCard
             var result=await CardCmd.Exhaust(ctx,card);
             if(result.HasValue&&result.Value.success&&result.Value.targetPile==PileType.Exhaust)exhausted++;
         }
+        PuniCombatEffects.Exhausted(this, exhausted);
         return exhausted;
     }
 

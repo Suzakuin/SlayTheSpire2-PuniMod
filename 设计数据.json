@@ -521,7 +521,7 @@
     "cost": 2,
     "type": "Power",
     "target": "Self",
-    "description": "每解封一道封印，获得 2 点能量并抽 2 张牌。",
+    "description": "每解封一道封印，抽 2 张牌。",
     "Magic": 2,
     "MagicUp": 0,
     "Rule": "LifeSealPower",
@@ -681,16 +681,16 @@
   {
     "key": "SealSpear",
     "name": "封印之枪",
-    "cost": 1,
+    "cost": 2,
     "type": "Attack",
     "rarity": "Uncommon",
     "target": "AnyEnemy",
     "description": "造成 {Damage:diff()} 点伤害。每解封一道封印，额外造成 {Magic:diff()} 点伤害。",
     "Damage": 6,
     "DamageUp": 0,
-    "Magic": 12,
+    "Magic": 3,
     "Rule": "SealAttack",
-    "MagicUp": 4,
+    "MagicUp": 1,
     "imprints": [
       {
         "stage": 2,
@@ -1307,7 +1307,7 @@
   {
     "key": "DawnJudgment",
     "name": "黎明裁决",
-    "cost": 2,
+    "cost": 1,
     "type": "Attack",
     "rarity": "Rare",
     "target": "AnyEnemy",

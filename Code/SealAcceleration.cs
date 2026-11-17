@@ -60,6 +60,9 @@ public abstract partial class PuniCard
         int cost=card.EnergyCost.CostsX?0:Math.Max(0,card.EnergyCost.GetWithModifiers(CostModifiers.Local));
         var result=await CardCmd.Exhaust(context,card);
         if(result.HasValue&&result.Value.success&&result.Value.targetPile==PileType.Exhaust)
+        {
+            PuniCombatEffects.Exhausted(this, 1);
             await Spirit(context,cost+M);
+        }
     }
 }

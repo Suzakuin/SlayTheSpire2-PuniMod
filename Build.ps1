@@ -1,4 +1,4 @@
-﻿param(
+param(
     [string]$GameDir = 'E:\steam\steamapps\common\Slay the Spire 2',
     [string]$GodotPath = 'godot'
 )

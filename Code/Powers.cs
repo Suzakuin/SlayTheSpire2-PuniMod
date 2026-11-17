@@ -41,6 +41,7 @@ public sealed class SealProgressPower : PuniPower
         if (gain == 0) return;
         await PowerCmd.Apply<SealProgressPower>(context, owner, gain, owner, source);
         int next = owner.GetPowerAmount<SealProgressPower>();
+        PuniCombatEffects.Seals(owner, Math.Min(7, old / 3) + 1, Math.Min(7, next / 3));
         if(owner.GetPower<DivineBulwarkPower>() is {} bulwark)
             await bulwark.AfterSpiritGained(next-old);
         for (int seal = Math.Min(7,old / 3) + 1; seal <= Math.Min(7,next / 3); seal++)

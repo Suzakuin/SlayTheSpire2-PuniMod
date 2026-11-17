@@ -51,8 +51,8 @@ public sealed class Puni : PlaceholderCharacterModel
     public override string CustomCharacterSelectBg => Main.Res + "/scenes/select.tscn";
     public override string CustomIconTexturePath => Main.Res + "/images/icon.png";
     public override string CustomIconOutlineTexturePath => Main.Res + "/images/icon.png";
-    public override string CustomCharacterSelectIconPath => Main.Res + "/images/select.png";
-    public override string CustomCharacterSelectLockedIconPath => Main.Res + "/images/select.png";
+    public override string CustomCharacterSelectIconPath => Main.Res + "/images/puni-select-portrait.png";
+    public override string CustomCharacterSelectLockedIconPath => CustomCharacterSelectIconPath;
     public override string CustomMapMarkerPath => Main.Res + "/images/map.png";
     public override string CustomIconPath => Main.Res + "/scenes/icon.tscn";
     public override Control CustomIcon => ResourceLoader.Load<PackedScene>(CustomIconPath).Instantiate<Control>();

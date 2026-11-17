@@ -106,6 +106,12 @@ public abstract partial class PuniCard(string key) : CustomCardModel(Catalog.Get
         var command = DamageCmd.Attack(damage ?? DynamicVars.Damage.BaseValue).FromCard(this, play);
         if (all) command.TargetingAllOpponents(CombatState!);
         else { if (play.Target == null || play.Target.IsDead) return; command.Targeting(play.Target); }
+        if (this is HolySpiritFlash && play.Target is {} target && PuniCombatEffects.CanAim(Owner.Creature, target))
+        {
+            command.WithAttackerFx(() => PuniCombatEffects.Charge(Owner.Creature, target))
+                .WithWaitBeforeHit(.16f, .25f)
+                .WithHitVfxNode(hit => PuniCombatEffects.Beam(Owner.Creature, hit));
+        }
         await command.Execute(ctx);
     }
     private Task Power<T>(PlayerChoiceContext ctx, decimal amount) where T : PowerModel, new()
@@ -252,10 +258,16 @@ public abstract partial class PuniCard(string key) : CustomCardModel(Catalog.Get
             case "ExhaustStatuses":
                 var statuses=new[]{PileType.Draw,PileType.Discard,PileType.Hand}
                     .SelectMany(p=>CardPile.Get(p,Owner)!.Cards).Where(c=>c.Type==CardType.Status).Distinct().ToArray();
+                int exhausted = 0;
                 foreach(var status in statuses) {
                     var result=await CardCmd.Exhaust(ctx,status,false,false);
-                    if(result.HasValue && status.Pile?.Type==PileType.Exhaust)await Spirit(ctx,1);
+                    if(result.HasValue && status.Pile?.Type==PileType.Exhaust)
+                    {
+                        exhausted++;
+                        await Spirit(ctx,1);
+                    }
                 }
+                PuniCombatEffects.Exhausted(this, exhausted);
                 break;
             case "MultiHit": for(int i=0;i<(int)E && target is { IsDead:false };i++) await Attack(ctx,play); break;
             case "Block": await Block(play); break;

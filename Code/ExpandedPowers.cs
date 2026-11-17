@@ -170,12 +170,9 @@ public sealed class HolyThornsPower : TurnPuniPower, ISealUnlockListener
 public sealed class LifeSealPower : TurnPuniPower, ISealUnlockListener
 {
     public override string CustomPackedIconPath=>Main.Res+"/images/powers/LivingLightPower.png";
-    public override List<(string,string)> Localization => new PowerLoc("生命","解封时获得能量并抽牌。","每新解封一道封印，获得 {Amount} 点能量，抽 {Amount} 张牌。不追溯已解封部分，21点后的圣灵脉冲不触发。");
-    public async Task AfterSealUnlocked(PlayerChoiceContext context,int seal,CardModel? source)
-    {
-        await PlayerCmd.GainEnergy(Amount,Owner.Player!);
-        await CardPileCmd.Draw(context,Amount,Owner.Player!);
-    }
+    public override List<(string,string)> Localization => new PowerLoc("生命","解封时抽牌。","每新解封一道封印，抽 {Amount} 张牌。不追溯已解封部分，21点后的圣灵脉冲不触发。");
+    public Task AfterSealUnlocked(PlayerChoiceContext context,int seal,CardModel? source)
+        => CardPileCmd.Draw(context,Amount,Owner.Player!);
 }
 
 

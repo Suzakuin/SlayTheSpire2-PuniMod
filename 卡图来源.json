@@ -1,5 +1,5 @@
 {
-  "method": "官网原版 SWF 动画静帧，透明内容裁切、等比缩放、统一纯色衬底；无 AI 绘制、无重绘、无调色。图片及角色权利归淘米及原权利方。",
+  "method": "91 张独立插画，由内置 ImageGen 逐张绘制。部分卡图以谱尼的外形、七重封印与圣灵特性为创作参考。成图等比裁切为游戏卡图槽所需尺寸。",
   "records": [
     {
       "key": "StrikePuni",
@@ -7,21 +7,19 @@
       "cost": 1,
       "type": "Attack",
       "rarity": "Basic",
-      "source": "https://seer.61.com/resource/fightResource/pet/swf/1400714.swf",
-      "sprite": 825,
-      "frame": 60,
-      "crop": [
-        682,
-        864,
-        824,
-        618
-      ],
-      "sha256": "c7442b491b0df8986d20d01099ee969e83058d36247ecc77ace80b19cb5684e2",
       "target": "AnyEnemy",
       "description": "造成 {Damage:diff()} 点伤害。",
       "Damage": 6,
       "DamageUp": 3,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "5ab91c960fa7ded9b789465ffb90010eb387ec197bb8348a4a40cb0c4bcaa0fc",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI. Aurora Strike, the starting single-hit attack: a small faceless golden branching Puni spirit attacks from far left above a frozen lake; its one thick ice-blue aurora blade sweeps from lower-left through the centre into a basalt training monolith. Cold midnight ultramarine with electric cerulean and white. Wide profile, low horizon, clean single impact.",
+        "reference": null
+      }
     },
     {
       "key": "DefendPuni",
@@ -29,21 +27,19 @@
       "cost": 1,
       "type": "Skill",
       "rarity": "Basic",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/20605.swf",
-      "sprite": 8,
-      "frame": 15,
-      "crop": [
-        138,
-        178,
-        602,
-        502
-      ],
-      "sha256": "d8664effd050a648f13269f8b047d063af5055e6f61c88ffefaa242f80164549",
       "target": "Self",
       "description": "获得 {Block:diff()} 点[gold]格挡[/gold]。",
       "Block": 5,
       "BlockUp": 3,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "6621d4debf846f4704f2cf512fc424d7e813fa7f976f3151d740da398068034c",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI. Holy Spirit Guard, the starting five-block skill: a close-up of an ivory-brass shield built out of three overlapping petal plates, planted at an angle in an ochre desert pass. Two small stones skid off the far side. A grounded solid object, asymmetric, honey-light on slate brown, no wielder and no runes.",
+        "reference": null
+      }
     },
     {
       "key": "SacredLight",
@@ -51,22 +47,20 @@
       "cost": 1,
       "type": "Attack",
       "rarity": "Basic",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10996.swf",
-      "sprite": 55,
-      "frame": 15,
-      "crop": [
-        54,
-        488,
-        598,
-        220
-      ],
-      "sha256": "c1e75c8eb399520bf546298e4c19b661d59684bc6b11f1781236f8e5668eb5c7",
       "target": "AnyEnemy",
       "description": "造成 {Damage:diff()} 点伤害。\n抽 {Magic} 张牌。",
       "Damage": 7,
       "DamageUp": 2,
       "Magic": 1,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "1bcd9a297c20fe4ac653facc4cc3ff7bd10a2accf82ab7897260b588472df113",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI. Holy Light damages and draws one: a white beam from a faceted pearl lantern cuts diagonally through smoke in a high vaulted mausoleum and reveals a single floating blank ivory card in its wake. Soot-black, bleached silver and a hint of lemon. Side view, slender spear of light plus a visibly revealed object.",
+        "reference": null
+      }
     },
     {
       "key": "SealRelease",
@@ -74,23 +68,21 @@
       "cost": 1,
       "type": "Skill",
       "rarity": "Basic",
-      "source": "https://seer.61.com/resource/fightResource/pet/swf/1400714.swf",
-      "sprite": 971,
-      "frame": 40,
-      "crop": [
-        188,
-        344,
-        910,
-        580
-      ],
-      "sha256": "f04efa3bfbfffdf1efbd20a9e5a0d95837186055c98df4d38855f5b51394e8b0",
       "target": "Self",
       "description": "获得 {Block:diff()} 点[gold]格挡[/gold]。\n获得 {Magic} 点[gold]圣灵[/gold]。",
       "Block": 6,
       "BlockUp": 2,
       "Magic": 1,
       "MagicUp": 1,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "e05a7e43d35fb136ebddd5080fe6ac98441c8a81905d99a6beef9a49f06f3219",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI. Seal Release grants block and Spirit: top-down close-up of a jade-green circular stone locking mechanism, one stone segment pushed out, a little floating gold spirit lifted from the opening, the remaining rim still protecting it. Moss, dark viridian and a spot of burnt gold. Texture of wet carved rock.",
+        "reference": null
+      }
     },
     {
       "key": "Aurora",
@@ -98,21 +90,19 @@
       "cost": 0,
       "type": "Attack",
       "rarity": "Common",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10993.swf",
-      "sprite": 54,
-      "frame": 13,
-      "crop": [
-        1128,
-        680,
-        256,
-        280
-      ],
-      "sha256": "0eb1827faf82aaaa2eaf5b1ac3c36d6356a3cb4059a91ade14b1aa185dd17de3",
       "target": "AnyEnemy",
       "description": "造成 {Damage:diff()} 点伤害。",
       "Damage": 3,
       "DamageUp": 2,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "ca57d796ad5b55a8534cc89634abf5c820919751b3f72676d6f5e83ee5229f26",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI. Aurora is a quick slash that can also block: a thin pastel-pink curved arc has just cut across frost while a separate lilac ice shard behind catches the return blow. Side view of snowy plateau at dawn. Muted mauve and periwinkle with bright salmon, use one long thin light silhouette.",
+        "reference": null
+      }
     },
     {
       "key": "ElementalPulse",
@@ -120,23 +110,21 @@
       "cost": 1,
       "type": "Attack",
       "rarity": "Common",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/31140.swf",
-      "sprite": 46,
-      "frame": 9,
-      "crop": [
-        1206,
-        546,
-        316,
-        326
-      ],
-      "sha256": "959e013e42c1e70f643f7acb9f62e263000f3ff99f64b4339850f1015fe642a7",
       "target": "AnyEnemy",
       "description": "造成 {Damage:diff()} 点伤害。\n再造成 {Magic} 点无视格挡的固定伤害。",
       "Damage": 4,
       "DamageUp": 2,
       "Magic": 3,
       "MagicUp": 1,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "0655147cbdf878095f9f8f9326b2af73d2f354d9f7e6fb651035d6bc1b763dbd",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI. Elemental Pulse sends out an impact and marks all enemies: steep bird's-eye view of three anonymous stone effigies around a cracked emerald geode. From the geode a vivid magenta pulse travels outward along the ground, leaving identical split scar glyphs on the effigies. Acid pink and moss contrasting on chalk grey stone.",
+        "reference": null
+      }
     },
     {
       "key": "VoidVeil",
@@ -144,16 +132,6 @@
       "cost": 0,
       "type": "Skill",
       "rarity": "Common",
-      "source": "https://seer.61.com/resource/fightResource/pet/swf/1400714.swf",
-      "sprite": 986,
-      "frame": 20,
-      "crop": [
-        310,
-        220,
-        772,
-        616
-      ],
-      "sha256": "dd106d636cc7c550134b80b806bf3703c0d1645095412ccdf639f072554f2dd5",
       "target": "Self",
       "description": "获得 {Magic} 点[gold]圣灵[/gold]。\n获得 1 层[gold]无实体[/gold]。",
       "Block": 0,
@@ -162,7 +140,15 @@
       "MagicUp": 1,
       "Exhaust": true,
       "Rule": "VoidVeil",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "20c20c4d5aa3d69c7081b4bec596d4e59766f9a7573a0dd2b2885b7f3a0effcb",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI. Veil of Nothingness, a disposable protective spell that weakens an approaching foe and can grant block. A broad translucent deep teal veil, like overlapping curved glass membranes, sweeps down from an arch on the left and folds around a small dark figure with a lowered weapon. Through the membrane the incoming blow has dissolved into ash. Place the key curve in the broad middle-left, use strong circular negative space and a sharply lit jade edge. Quiet midnight pine, blue-black, cool jade and pale mint. Quiet and eerie, no glitter or spear shapes.",
+        "reference": null
+      }
     },
     {
       "key": "SpiritGather",
@@ -170,22 +156,20 @@
       "cost": 0,
       "type": "Skill",
       "rarity": "Common",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/20499.swf",
-      "sprite": 16,
-      "frame": 10,
-      "crop": [
-        2922,
-        3070,
-        398,
-        240
-      ],
-      "sha256": "f7741b70c41000ac4a94542b6314a1f01e07be5596ecb606bda59a94bcf62ea1",
       "target": "Self",
       "description": "抽 {Magic} 张牌。",
       "Magic": 1,
       "MagicUp": 1,
       "Exhaust": true,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "07f37750b00dbf273e5f2489728b3be994975b0b9d32501203a98ad5761998fb",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI. Gather Spirit: three firefly-like ivory spirits funnel down into a shallow ceramic chalice resting on a root on the bank of a green forest tarn. A close low angle, vessels and reeds as tangible silhouettes. Luminous lime, dark olive, unglazed terracotta, a little still reflection.",
+        "reference": null
+      }
     },
     {
       "key": "SoulInterference",
@@ -193,23 +177,21 @@
       "cost": 1,
       "type": "Skill",
       "rarity": "Common",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/20607.swf",
-      "sprite": 13,
-      "frame": 15,
-      "crop": [
-        272,
-        406,
-        900,
-        1134
-      ],
-      "sha256": "82bf5b9fc901745609fe84c0e7230b15c9d52bfb20486b22d3ffe031a35d1250",
       "target": "AnyEnemy",
       "description": "给予 {Magic} 层[gold]虚弱[/gold]和[gold]易伤[/gold]。\n获得 {Block:diff()} 点[gold]格挡[/gold]。",
       "Block": 3,
       "BlockUp": 0,
       "Magic": 1,
       "MagicUp": 1,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "fadeec4cb007fd3585819207746c683b6068a40721dfa6e17c502a1efbe56095",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI. Soul Interference weakens and exposes an enemy while granting guard: an opponent's empty indigo armour floats in dark water and its violet ghost reflection is being pulled sideways out of alignment by a brass tuning fork; one translucent defensive plate sits in the near foreground. Strong reflected diagonal, plum and dull metal.",
+        "reference": null
+      }
     },
     {
       "key": "SpaceRupture",
@@ -217,21 +199,19 @@
       "cost": 1,
       "type": "Attack",
       "rarity": "Common",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10994.swf",
-      "sprite": 26,
-      "frame": 15,
-      "crop": [
-        402,
-        96,
-        270,
-        956
-      ],
-      "sha256": "ede0595993d5f5e431ff8fcece54c31de9a71bcc4f9ad5a263b3388417aa9ace",
       "target": "AnyEnemy",
       "description": "造成 {Damage:diff()} 点伤害。",
       "Damage": 9,
       "DamageUp": 3,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "4f5cdfaf7342e4c8f3a53c80c0ed208113946627b9ffa58e4b247526a9f1b01e",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI. Space Rupture scales with broken seals and leaves marks: a top-to-bottom incision has split a suspended cobblestone causeway in two. The gap reveals a scarlet starfield inside the cut; displaced stone slabs bracket it. High contrast cream chalk, black-blue, a single garnet fissure. Graphically bold and angular.",
+        "reference": null
+      }
     },
     {
       "key": "SacredWard",
@@ -239,23 +219,21 @@
       "cost": 1,
       "type": "Skill",
       "rarity": "Common",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/11274.swf",
-      "sprite": 13,
-      "frame": 14,
-      "crop": [
-        44,
-        10,
-        518,
-        422
-      ],
-      "sha256": "2e69f7cba034d3dda1e4206fb2470415f0fcbabb6bb15ddbdf57348836d2074e",
       "target": "Self",
       "description": "获得 {Block:diff()} 点[gold]格挡[/gold]。\n获得 {Magic} 层[gold]人工制品[/gold]。",
       "Block": 6,
       "BlockUp": 2,
       "Magic": 1,
       "Exhaust": true,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "634879e2931231486bd7f3b386acdf9debfe03e290eeb765d18ed7c4aad16ee8",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI. Holy Light Barrier absorbs a harmful effect: see one giant scalloped stained-glass ward edge-on blocking a claw of black smoke. One square talisman inset in the glass at impact glows amber. Camera near the floor, large cyan plane with coral and deep sea green accents, no city scene.",
+        "reference": null
+      }
     },
     {
       "key": "LightWrath",
@@ -263,23 +241,21 @@
       "cost": 1,
       "type": "Attack",
       "rarity": "Common",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10997.swf",
-      "sprite": 27,
-      "frame": 25,
-      "crop": [
-        512,
-        138,
-        436,
-        368
-      ],
-      "sha256": "7b7c69a43f07588c31a92a7bb7c338edb3d3582f16dfc6fdd5785ceccbccce5a",
       "target": "AnyEnemy",
       "description": "造成 {Damage:diff()} 点伤害。\n目标每有一种增益，额外造成 {Magic} 点伤害。",
       "Damage": 6,
       "DamageUp": 2,
       "Magic": 2,
       "MagicUp": 1,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "162b594abced23705d71f63169d91277dd41f6c229ff399672103711cb345290",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A furious brass censer on a mountaintop flings a straight fan of flame and a torrent of ghost sparks over volcanic shale; the flame is fed by tiny caught spirits at the mouth. Amber orange, umber and pale apricot on a storm-yellow sky. A low, rising diagonal.",
+        "reference": null
+      }
     },
     {
       "key": "SealEcho",
@@ -287,23 +263,21 @@
       "cost": 1,
       "type": "Skill",
       "rarity": "Common",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/25678.swf",
-      "sprite": 25,
-      "frame": 10,
-      "crop": [
-        412,
-        582,
-        526,
-        442
-      ],
-      "sha256": "ed8e0bdff04db2a2104b56352fd1f0a70640d60b280c547336f40e503a7110e9",
       "target": "Self",
       "description": "抽 {Magic} 张牌。\n获得 {Extra} 点能量。",
       "Magic": 1,
       "MagicUp": 1,
       "Extra": 1,
       "Exhaust": true,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "1da6a500d688f6ab37897fd178d366e04ed4add2292c75b38248d5a1780837e2",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Seen from above, one worn white card burns away in a black ceramic bowl, and its ash-reflection becomes a paired basalt ram horn in concentric marks etched in an iron floor. Red brick, furnace vermilion and charcoal. Tight composition built around the transformation.",
+        "reference": null
+      }
     },
     {
       "key": "RadiantWave",
@@ -311,21 +285,19 @@
       "cost": 1,
       "type": "Skill",
       "rarity": "Common",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/17913.swf",
-      "sprite": 30,
-      "frame": 13,
-      "crop": [
-        1108,
-        692,
-        352,
-        198
-      ],
-      "sha256": "107bfa1cfc7447da7528f50568373f5aaad93a2693cdd58011ca5d308e12a138",
       "target": "AllEnemies",
       "description": "对所有敌人造成 {Damage:diff()} 点伤害。",
       "Damage": 6,
       "DamageUp": 2,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "0b866d706f3331371695a7376b3da92fbcb3091efed9278d9b167cfb4558943f",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A low, horizontal wave of liquid daylight breaks against a row of dark stone stakes and folds into a second calmer sheet of water in the distance. Side view of a flooded sanctuary at daybreak. Ultramarine water and ice-white foam with peach reflections.",
+        "reference": null
+      }
     },
     {
       "key": "TwinRay",
@@ -339,17 +311,15 @@
       "DamageUp": 1,
       "Extra": 2,
       "Rule": "MultiHit",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10361.swf",
-      "sprite": 29,
-      "frame": 6,
-      "crop": [
-        272,
-        28,
-        412,
-        114
-      ],
-      "sha256": "f17d00f3d9568621b6fbb41d3b8852367d6f3c1594d20baf8bf92d45b99c9f7b",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "9447d782715b848de3a3415502a9132c17c3c430147602296be40a71e44cea25",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Two distinctly separate parallel thin turquoise blades snap past an armoured scarecrow side by side as they score two slits in a tall bark slab. No curved slash. Low angle across a smoky jade-green woodland with narrow turquoise edge lights and copper bark.",
+        "reference": null
+      }
     },
     {
       "key": "LightStep",
@@ -362,17 +332,15 @@
       "Block": 3,
       "BlockUp": 2,
       "Rule": "Block",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10371.swf",
-      "sprite": 27,
-      "frame": 11,
-      "crop": [
-        18,
-        22,
-        350,
-        348
-      ],
-      "sha256": "f69e76304da8ca8c552ef1dfd4ccde4b724fe21c2b4b49d0efb07f6d3b06db10",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "530106638a1e454d4c1182ad30c746cf2d1c31e8eea42eba905bd84723b56029",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Close to the ground, a series of well-spaced light footprints flows around a dark falling boulder and across a shallow stream. Wet pebbles, a sliver of moon, British racing green and luminous lemon. Serpentine ground-level perspective.",
+        "reference": null
+      }
     },
     {
       "key": "FocusedSpark",
@@ -386,17 +354,15 @@
       "DamageUp": 2,
       "Magic": 1,
       "Rule": "AttackSpirit",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/14733.swf",
-      "sprite": 28,
-      "frame": 11,
-      "crop": [
-        1192,
-        660,
-        232,
-        234
-      ],
-      "sha256": "98bd2685d974582cd23007afdf987259ea2a7e155c8c848ddfff7560cbdd5fc4",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "6b31ea11ee4f92e2e3502ce33db05cf60fab6c8e7c4058fb73640eb5d7b4c889",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  One tiny amber focus is held clearly inside the triangular jaws of a charcoal crystal, with a single scarlet ray projected to the left. Extreme macro composition in a plum-lit forge, one clean red diagonal. No large glowing balls.",
+        "reference": null
+      }
     },
     {
       "key": "SealGuard",
@@ -409,17 +375,15 @@
       "Block": 5,
       "BlockUp": 2,
       "Rule": "SealGuard",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/26031.swf",
-      "sprite": 21,
-      "frame": 10,
-      "crop": [
-        464,
-        628,
-        418,
-        190
-      ],
-      "sha256": "da84887f0521522b882f1ba1a950a0016adb0c99d23d7231c7a631fe4492d6bd",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "60e5eaef8df63709efa798b29e63df5f21138ad4466623687a8c28ffd2937575",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A weathered white bird-wing shield lies against a carved lilac gravestone, covering a small seal-star in its center. The first lock rises beside it to reveal one ivory card. Desaturated violet, darker stone blue, and the glow of the small seal. Close composition.",
+        "reference": null
+      }
     },
     {
       "key": "ShatterRay",
@@ -433,17 +397,15 @@
       "DamageUp": 3,
       "Magic": 1,
       "Rule": "Vulnerable",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10362.swf",
-      "sprite": 7,
-      "frame": 10,
-      "crop": [
-        34,
-        44,
-        422,
-        280
-      ],
-      "sha256": "45527775849a2e4a48d06bbd9caf9334698df560e5afaff3fe90ebf4064ca89d",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "5370ad4f107ebdfa82514b23dc89de24eb4d77740470d6606c99619811d545e4",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A straight white beam punctures a blue steel plate from the right as multiple triangular shards burst toward the camera; a single spiderweb scar at the point of impact. Petrol green background and pearl cyan, no ritual circles. Lateral collision.",
+        "reference": null
+      }
     },
     {
       "key": "SpiritSurvey",
@@ -456,17 +418,15 @@
       "Magic": 2,
       "MagicUp": 1,
       "Rule": "Draw",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/23800.swf",
-      "sprite": 9,
-      "frame": 11,
-      "crop": [
-        574,
-        612,
-        282,
-        276
-      ],
-      "sha256": "86524028316376b882750dc8d4225bbed7cc7036d2b93a0a54d10c309125eb41",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "9361bf843fc08e110d53da505ce8917037437b08bb06dc67dcb77e3ec8960c1f",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Eye-level view through a copper astronomical spyglass, where two blank vellum pages and a bright charted star are visibly revealed above a purple moor. Antique umber and cobalt with one cold silver gleam. The brass lens dominates the off-centre foreground.",
+        "reference": null
+      }
     },
     {
       "key": "Starfall",
@@ -479,17 +439,15 @@
       "Damage": 10,
       "DamageUp": 3,
       "Rule": "AttackAll",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/12897.swf",
-      "sprite": 33,
-      "frame": 13,
-      "crop": [
-        1070,
-        444,
-        410,
-        702
-      ],
-      "sha256": "4c801acb4933cabb322869a17f7d549f5a930bc473eb1e04bfb10c4f6ca7b11c",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "e18cd65656a1aadd8a0722d02b99b0074f6e22b91d993c7afbe383ace6db8c56",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Far aerial view of two distinct waves of meteors coming down through a broad magenta and indigo sky toward toy-sized ruins. Silhouetted high hill in foreground. Rose red and white meteors against deep dark blue, constellations sparse.",
+        "reference": null
+      }
     },
     {
       "key": "PurifyingBreath",
@@ -502,17 +460,15 @@
       "Block": 6,
       "BlockUp": 2,
       "Rule": "PurifyWeak",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/25338.swf",
-      "sprite": 29,
-      "frame": 15,
-      "crop": [
-        550,
-        582,
-        240,
-        348
-      ],
-      "sha256": "da9c60def896f9bf9dcfb5bf2d9c16e01cca4cb63d28abf596ae2c560d83bf61",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "200ba294e60d4a11ffa06f7274a46aaf3e78a42b8411b66775ced91af08e396c",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Under a creamy sunbeam in a green cloister, a gust of white incense smoke gathers three ragged scraps of paper from an empty marble bench and lifts them toward a high opening. Sage green with cool cream and muted terracotta. The airflow is the recognizable shape.",
+        "reference": null
+      }
     },
     {
       "key": "SlowPulse",
@@ -527,17 +483,15 @@
       "Magic": 1,
       "MagicUp": 1,
       "Rule": "Weak",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/16687.swf",
-      "sprite": 38,
-      "frame": 12,
-      "crop": [
-        1076,
-        556,
-        450,
-        432
-      ],
-      "sha256": "34ebe92113d220b07723293adbd89c238b066b2d7ed68181e8e2bb200317d639",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "9b3f326970e073388ac647f46b093507010042183190e55da4467b3941c599cd",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A single torpid sea-blue wave wraps around the ankles of a dark iron sentinel in a desaturated silt flat. Small fragments appear suspended midair as if time slowed. Wide shot, grey-green terrain and one thickness of bright seafoam.",
+        "reference": null
+      }
     },
     {
       "key": "HiddenEdge",
@@ -551,17 +505,15 @@
       "MagicUp": 1,
       "Exhaust": true,
       "Rule": "Spirit",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10372.swf",
-      "sprite": 51,
-      "frame": 14,
-      "crop": [
-        34,
-        90,
-        280,
-        282
-      ],
-      "sha256": "2cda4cf62f2ae234ce719c14699ae4d083764a85cbe4477c5a84cd767c1cf11c",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "70846f6dfb99dfc0722853b8d008e21bc1c6b6dd7c975aa9538c244c3acee8f0",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A ceremonial blade is almost entirely tucked under a folded ink-blue cloth, one edge concealed except for a single golden glint over a little spirit gem. Side-lit still life on aged dark green teak, cloth makes a strong descending diagonal.",
+        "reference": null
+      }
     },
     {
       "key": "VoidSeal",
@@ -569,23 +521,21 @@
       "cost": 2,
       "type": "Skill",
       "rarity": "Uncommon",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/20498.swf",
-      "sprite": 35,
-      "frame": 13,
-      "crop": [
-        64,
-        62,
-        350,
-        266
-      ],
-      "sha256": "bf5129def3606a21d4404761a1095129a7f8adc69bee37de967a774d1a9f306f",
       "target": "Self",
       "description": "获得 {Magic} 层[gold]无实体[/gold]。",
       "Magic": 2,
       "Exhaust": true,
       "CostUp": -1,
       "MagicUp": 0,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "169e4a60bbd4c955497b7650aa28e6a23480214786d8b46a94369c8a9bc47685",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A vast empty black-blue stairwell. A single humanless silhouette of a branching sacred spirit dissolves through a flat obsidian oval, leaving translucent parts on both sides of the portal. Ink-black, smoke plum and a narrow lavender rim. Point of view through a small door.",
+        "reference": null
+      }
     },
     {
       "key": "ElementSeal",
@@ -593,22 +543,20 @@
       "cost": 1,
       "type": "Skill",
       "rarity": "Uncommon",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/11261.swf",
-      "sprite": 27,
-      "frame": 22,
-      "crop": [
-        18,
-        2,
-        732,
-        866
-      ],
-      "sha256": "bfb1e7e8a497d64f5efddce6d845583cb60a6cf8f025fdc6a8876236185cd02c",
       "target": "AllEnemies",
       "description": "对所有敌人造成 {Magic} 点无视格挡的固定伤害。",
       "Magic": 9,
       "MagicUp": 3,
       "Exhaust": true,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "89349bcf98ac28a70660b42236399cda00969642cfda57d360da872088b2c314",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Close frontal view of a puzzle tablet split into four clearly different material quadrants (charred wood, pale ice, rushing jade water, basalt), all of them stamping the same blue-white fracture mark outward. Mineral gray and intense turquoise, broad physical shapes.",
+        "reference": null
+      }
     },
     {
       "key": "EnergySeal",
@@ -616,21 +564,19 @@
       "cost": 1,
       "type": "Power",
       "rarity": "Uncommon",
-      "source": "https://seer.61.com/resource/fightResource/pet/swf/1400714.swf",
-      "sprite": 825,
-      "frame": 80,
-      "crop": [
-        608,
-        854,
-        1088,
-        800
-      ],
-      "sha256": "1b74b2c5b840d6811346b2ea0d5fe7e12763ae18e23e25d7d2fb2b5270687c40",
       "target": "Self",
       "description": "获得 {Block:diff()} 点[gold]格挡[/gold]。\n受到敌人攻击并损失生命后，对攻击者造成损失生命值 2 倍的固定伤害。",
       "Block": 12,
       "BlockUp": 8,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "1c6d51eab5fa65812f994639259d352a79aa219f8396a4e7700b4a81fec00071",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A shattered copper bell rebounds a black arrow toward the far right along one brilliant returning lightning path. Gold warning stripes are painted on the bell material, no text. Electric yellow over petrol and bronze, tight cropped foreground.",
+        "reference": null
+      }
     },
     {
       "key": "LifeSeal",
@@ -638,21 +584,19 @@
       "cost": 2,
       "type": "Power",
       "rarity": "Uncommon",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/20606.swf",
-      "sprite": 57,
-      "frame": 17,
-      "crop": [
-        24,
-        50,
-        740,
-        430
-      ],
-      "sha256": "de73f91b5eaca8a50e89fad1d1ca5c991f4f9d5a0e06f4ab9a1feacedf72be10",
       "target": "Self",
       "description": "你的回合开始时，回复 {Magic} 点生命。",
       "Magic": 5,
       "MagicUp": 3,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "b2b13a5f7fb65f5562a82a3c3980c2385d905b81fcc76d2ff308cb1372aea6e8",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Create ONE finished full-bleed landscape fantasy card illustration for the Puni character mod for Slay the Spire 2. Use the attached Seer reference as the design of Puni only: the core is a thin golden double helix with six long branching gold-white tendrils, dark bronze petal-like plates with gold lines and eyes below, and cyan seal-light. Puni is a floating nonhumanoid spirit. Never give it a human face, arms, feathers, dragon face, or humanoid torso. Paint original anatomy in perspective, never paste the reference or default to the reference's frontal idle pose. Rich painterly fantasy with bold simplified shapes and textured edges, readable on a small screen. Landscape aspect 4:3 (final artwork slot 500x380), fill every edge, major forms in central 75%. Clear focal point. Absolutely no text, no numbers, no interface, no border, no floating cards, no separate ability pictograms. The mechanic should be felt through a scene or a material changing. Match the specific framing and visual action below.\n\nGround-level view across hard jade-green mineral banks under a turbulent pale sky. Puni's diagonal narrow gold helix, recognizably branched wings and one bronze petal form a medium off-center section of the shot. One broad fractured ancient bronze seal plate floats open beside it, and its reflected light triggers a fresh strip of very small pearly white blooms across otherwise barren stone, a few well defined in foreground. Avoid a centered tree or flowers floating in midair. Accent color fresh mint over muted emerald-gray, small strong straw-gold highlights on Puni. Show a habitat spring to life at the opening, elegant and clear.",
+        "reference": "work/PuniMod/PuniMod/images/puni.png"
+      }
     },
     {
       "key": "Reincarnation",
@@ -660,22 +604,20 @@
       "cost": 2,
       "type": "Skill",
       "rarity": "Uncommon",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/31141.swf",
-      "sprite": 34,
-      "frame": 9,
-      "crop": [
-        110,
-        166,
-        404,
-        370
-      ],
-      "sha256": "d1706b652e6cb4fb750732d629e9bb37071edf3c63e5790c28671d5c4d7020c1",
       "target": "Self",
       "description": "获得 {Magic} 层[gold]轮回[/gold]：抵挡死亡并回复最大生命值的 10%（向上取整）。",
       "Magic": 1,
       "Exhaust": true,
       "CostUp": -1,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "5a6bbd8ad87d700fc8df289e937d52dc6f7bac05779495978e88b0c2f9082cef",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  An eggshell split in two sits on a stone palm at a diagonal, with a small phoenix-shaped gold spirit just emerging from ash, vastly smaller than the broken wings around it. Frost-grey and dusty violet with one warm gold flame. Tactile rebirth metaphor.",
+        "reference": null
+      }
     },
     {
       "key": "Eternity",
@@ -683,16 +625,6 @@
       "cost": 2,
       "type": "Skill",
       "rarity": "Uncommon",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/20608.swf",
-      "sprite": 6,
-      "frame": 15,
-      "crop": [
-        82,
-        60,
-        694,
-        594
-      ],
-      "sha256": "a83cb65e97221e0bc61e23e6911c7968cf5d5fe9929cea77dcfa3b6046950b68",
       "target": "Self",
       "description": "获得 {Magic} 点能量。\n抽 {Extra} 张牌。",
       "Magic": 3,
@@ -700,7 +632,15 @@
       "ExtraUp": 1,
       "Exhaust": true,
       "MagicUp": 1,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "965e48c97d1bfe32abe5b41254458ca7ed07d560a088d356842fffebd11c09ce",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Inside a midnight observatory, a brushed-brass clockwork flywheel turns once past still stone columns and scatters three luminous blank parchment slips toward the upper frame. Old violet, tangerine brass and washed cool moonlight; steep three-quarter angle.",
+        "reference": null
+      }
     },
     {
       "key": "Purity",
@@ -708,22 +648,20 @@
       "cost": 1,
       "type": "Skill",
       "rarity": "Uncommon",
-      "source": "https://seer.61.com/resource/fightResource/pet/swf/1400714.swf",
-      "sprite": 971,
-      "frame": 20,
-      "crop": [
-        216,
-        212,
-        884,
-        716
-      ],
-      "sha256": "8247ab5be96ded8222242cfb0b5c7f61402447510c5d79850cfe8e005af75cfc",
       "target": "Self",
       "description": "移除自身所有减益。\n获得 {Magic} 层[gold]人工制品[/gold]。",
       "Magic": 1,
       "MagicUp": 1,
       "Exhaust": true,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "1b1a49afa774dab816897cdbaed7f4bd29a65aaf3c8f040eaf7cbba1229c97d7",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Create ONE finished full-bleed landscape fantasy card illustration for the Puni character mod for Slay the Spire 2. Use the attached Seer reference as the design of Puni only: the core is a thin golden double helix with six long branching gold-white tendrils, dark bronze petal-like plates with gold lines and eyes below, and cyan seal-light. Puni is a floating nonhumanoid spirit. Never give it a human face, arms, feathers, dragon face, or humanoid torso. Paint original anatomy in perspective, never paste the reference or default to the reference's frontal idle pose. Rich painterly fantasy with bold simplified shapes and textured edges, readable on a small screen. Landscape aspect 4:3 (final artwork slot 500x380), fill every edge, major forms in central 75%. Clear focal point. Absolutely no text, no numbers, no interface, no border, no floating cards, no separate ability pictograms. The mechanic should be felt through a scene or a material changing. Match the specific framing and visual action below.\n\nPaint a tranquil vertical cascading texture inside the landscape frame, from an off-center side angle. Puni's pale-gold branch tendril and the edge of an eye-inlaid dark bronze plate are large, losing a sooty black coating in a narrow silver rain. As its tip passes left to right, the corruption breaks into tiny ink droplets and drops into darkness below, exposing the authentic clean gold edge. A pale glimmer on the moonstone floor, a thin veil of cloud, use ice gray, ash blue, and porcelain ivory with restrained gold. Beautiful close crop, no vessel, no decorative frames, no literal washing items.",
+        "reference": "work/PuniMod/PuniMod/images/puni.png"
+      }
     },
     {
       "key": "HolyGate",
@@ -731,21 +669,19 @@
       "cost": 2,
       "type": "Attack",
       "rarity": "Uncommon",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10998.swf",
-      "sprite": 12,
-      "frame": 18,
-      "crop": [
-        150,
-        88,
-        460,
-        326
-      ],
-      "sha256": "584606152c169be243f64f832dfe2037be15bdb74760e2ad596f45ee40d8f9d9",
       "target": "AnyEnemy",
       "description": "移除目标的所有增益。\n造成 {Damage:diff()} 点伤害。",
       "Damage": 12,
       "DamageUp": 4,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "cae398d8b453364ee4b4475d0f8c70695f0839d70c4d5552a3f9223e05f78802",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A vast radiant gate with angular wing-shaped jambs slams open outward across an encroaching shadow; the pale force blasts fallen columns outward. View from near the hinge. Cream travertine, India ink shadows and narrow bronze dawn.",
+        "reference": null
+      }
     },
     {
       "key": "WhirlingRift",
@@ -753,23 +689,21 @@
       "cost": 2,
       "type": "Attack",
       "rarity": "Uncommon",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10995.swf",
-      "sprite": 47,
-      "frame": 13,
-      "crop": [
-        968,
-        520,
-        642,
-        640
-      ],
-      "sha256": "25d8c2a99bcf2db4ff759999d52e75f07d8f0dbe97855d368f080371d6bc0286",
       "target": "AllEnemies",
       "description": "对所有敌人造成 {Damage:diff()} 点伤害。\n给予所有敌人 {Magic} 层[gold]裂空圣痕[/gold]。",
       "Damage": 10,
       "DamageUp": 3,
       "Magic": 3,
       "MagicUp": 1,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "86ebccc9207de28af1e40ba74616a8738fbfed8538b6b9fc4e8973dbc7805588",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Top-down over a barren sepia arena, a thick cyan spiral cleaves the ground around three separated basalt sentinels and leaves luminous fractures at their feet. Keep the spiral off centre, sharp angular slices of space. Indigo, faded clay and glacial blue.",
+        "reference": null
+      }
     },
     {
       "key": "ThousandRays",
@@ -777,21 +711,19 @@
       "cost": 1,
       "type": "Attack",
       "rarity": "Uncommon",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10999.swf",
-      "sprite": 58,
-      "frame": 13,
-      "crop": [
-        884,
-        522,
-        796,
-        522
-      ],
-      "sha256": "7f11b90b850b855b4f166b3175649ffb033de70083414b9d88795dbcd00407f8",
       "target": "AnyEnemy",
       "description": "移除自身所有减益。\n造成 {Damage:diff()} 点伤害。",
       "Damage": 9,
       "DamageUp": 3,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "abe8f9f68d5e731204368089522deaf3dfe94d60ae9bcd46e2f04ebcb4d719f0",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A heavy grey cloak hung from a hook disintegrates into a fountain of tall white needles, all aimed upward into a single high dark target. Eye-level at base of the needles. Violet blue shadows with frosty purple highlights. No audience or UI.",
+        "reference": null
+      }
     },
     {
       "key": "EternalCycle",
@@ -799,21 +731,19 @@
       "cost": 1,
       "type": "Power",
       "rarity": "Uncommon",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/31142.swf",
-      "sprite": 23,
-      "frame": 10,
-      "crop": [
-        1182,
-        658,
-        284,
-        264
-      ],
-      "sha256": "31bb3a7257f5d2df005a2f3b22cb760169cbe1e63bf7de0430991a9a133cfc0f",
       "target": "Self",
       "description": "你的回合开始时，获得 {Magic} 点能量。",
       "Magic": 1,
       "CostUp": -1,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "ea3cdc15f486435a3909642d2f8dc0bfd52b03595c683b0752d27ece345d8bb0",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Create ONE finished full-bleed landscape fantasy card illustration for the Puni character mod for Slay the Spire 2. Use the attached Seer reference as the design of Puni only: the core is a thin golden double helix with six long branching gold-white tendrils, dark bronze petal-like plates with gold lines and eyes below, and cyan seal-light. Puni is a floating nonhumanoid spirit. Never give it a human face, arms, feathers, dragon face, or humanoid torso. Paint original anatomy in perspective, never paste the reference or default to the reference's frontal idle pose. Rich painterly fantasy with bold simplified shapes and textured edges, readable on a small screen. Landscape aspect 4:3 (final artwork slot 500x380), fill every edge, major forms in central 75%. Clear focal point. Absolutely no text, no numbers, no interface, no border, no floating cards, no separate ability pictograms. The mechanic should be felt through a scene or a material changing. Match the specific framing and visual action below.\n\nWide side view high in dark space, rich indigo and weathered rust-gold highlights. Puni is very small toward bottom right, slender golden helix and umbrella-shaped branching tendrils silhouetted. An immense comet trail emerges dim from behind its bronze plates and loops back from the top left visibly reentering its helix. Show the same flow as fleeting glints at different distances, tapering to one luminous final point. No circles painted like UI or magic sigils. Make the comet path irregular and physically graceful, a single returning ribbon through cold space and dark weathered fragments. No wheel, gears or landscape ruins.",
+        "reference": "work/PuniMod/PuniMod/images/puni.png"
+      }
     },
     {
       "key": "SealResonance",
@@ -821,16 +751,6 @@
       "cost": 1,
       "type": "Skill",
       "rarity": "Uncommon",
-      "source": "https://seer.61.com/resource/fightResource/pet/swf/1400714.swf",
-      "sprite": 928,
-      "frame": 80,
-      "crop": [
-        388,
-        850,
-        1420,
-        628
-      ],
-      "sha256": "2e8c6d07f382b5c573050cbc0f4cf0c0e24fe746d0f608afa67fd92bcb9c2e62",
       "target": "Self",
       "description": "获得 {Block:diff()} 点[gold]格挡[/gold]。\n每已解放一道封印，抽 1 张牌。",
       "Block": 8,
@@ -840,7 +760,15 @@
       "MagicUp": 0,
       "ExtraUp": 0,
       "CostUp": -1,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "589bbd848214ab2d07aa01f0450cd45e17fbcaf188a32c4d897896daba29dc70",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A resonating bronze gong is cradled in layered stone shields; its vibration sends three white slips of paper lifting outward in perspective. Strong oblique triangle through a dark, redwood shrine. Copper patina, lapis reflections and white.",
+        "reference": null
+      }
     },
     {
       "key": "SealSpear",
@@ -854,18 +782,16 @@
       "DamageUp": 0,
       "Magic": 4,
       "Rule": "SealAttack",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10368.swf",
-      "sprite": 17,
-      "frame": 7,
-      "crop": [
-        324,
-        110,
-        292,
-        1068
-      ],
-      "sha256": "ee366ad927429617760b98a2e1c424a12ff630896cb3a3ad588aad62aa22c7d7",
       "MagicUp": 2,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "c4d7ff83e87d559b93f74f3587f0b20339acfe784c51f99e65065e6688bbf4b8",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI. Seal Spear, a one-energy attack that deals more damage per seal released and can brand the target. Through a horizontal camera close to the ground, a long luminous spear with a forged ivory core and burnt-vermilion edge drives from low left to high right across midnight rust-colored cliffs. Three thin broken sealing rings slide backward along the shaft so the trajectory is readable. The large single spearpoint is the unmistakable subject. Deep aubergine rocks, dried terracotta dust and ember orange, with one white tip. No characters; trim the effects to a few long shapes.",
+        "reference": null
+      }
     },
     {
       "key": "Sanctuary",
@@ -879,17 +805,15 @@
       "BlockUp": 4,
       "Magic": 1,
       "Rule": "BlockDraw",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/25339.swf",
-      "sprite": 19,
-      "frame": 15,
-      "crop": [
-        570,
-        642,
-        216,
-        204
-      ],
-      "sha256": "2fee93b6ae971542ae0f5fa5c45f9e3561c646c5f8a2058bbac3f8f5a362e998",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "b1865764c85a0272d200701434acadf066e838d5541687e43c482c6ebc60f77b",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Seen sideways into a vaulted cliffside refuge, a ribbed stone canopy shields a tiny paper brazier, in which loose blank scraps burn to ash. The defensive roof is a large dark diagonally placed shape. Matte spruce, sky grey and warm milk light.",
+        "reference": null
+      }
     },
     {
       "key": "SpiritSiphon",
@@ -905,17 +829,15 @@
       "MagicUp": 1,
       "Exhaust": true,
       "Rule": "AttackHeal",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10364.swf",
-      "sprite": 17,
-      "frame": 11,
-      "crop": [
-        88,
-        70,
-        474,
-        310
-      ],
-      "sha256": "a5d2caa32652e3d4e2c374754c4006f31fd6458dfefe9ff82aff8265d0571025",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "6b4504f6fe3e8083c3f53ab20435ea046d2b4d5efad59e55921ffbd2b94439a4",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  One ghostly abstract creature in profile is struck by a thin dark needle, while a crimson line of stolen warmth flows backward toward a green faceted vial hanging from the foreground. Charcoal and deep indigo with an arresting teal spot. Readable transfer direction.",
+        "reference": null
+      }
     },
     {
       "key": "PrismVolley",
@@ -929,17 +851,15 @@
       "DamageUp": 1,
       "Extra": 3,
       "Rule": "MultiHit",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/12903.swf",
-      "sprite": 21,
-      "frame": 12,
-      "crop": [
-        1152,
-        676,
-        226,
-        164
-      ],
-      "sha256": "c3ce62027139c7693cb02d46f04f03d928ba8c3aaabd98bfa82bb7fdf826c07c",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "3544575421af55e08e078cbf6da9f79e5bee9606a0075ef862052122429d745a",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Three different colored sharp bolts—lilac, vermilion and turquoise—ricochet sequentially through multiple angular glass wedges buried in red gravel, each on its own clear trajectory. Downward perspective, red ochre shadows, no concentrated glow bundle.",
+        "reference": null
+      }
     },
     {
       "key": "DawnGuard",
@@ -954,18 +874,16 @@
       "Magic": 1,
       "Exhaust": true,
       "Rule": "BlockDexterity",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/26032.swf",
-      "sprite": 23,
-      "frame": 10,
-      "crop": [
-        568,
-        598,
-        256,
-        258
-      ],
-      "sha256": "7a89f8e3ab1648f606239e7a7f5c4045775899894a71a0bbbd06137fed1b94fd",
       "MagicUp": 1,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "e156391d12cc220ee4b27a4e75d819b8770294d99b970275222f439ec57728c8",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A slim enamel buckler skims over sunrise-lit snow, catching and deflecting a single projectile as a fluid footstep-shaped trail snakes past it. Coral-pink slopes, powder gold dawn and black blue rock. Object-sized dynamic defence.",
+        "reference": null
+      }
     },
     {
       "key": "ElementBreak",
@@ -980,17 +898,15 @@
       "Magic": 1,
       "Exhaust": true,
       "Rule": "StrengthDown",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/12898.swf",
-      "sprite": 25,
-      "frame": 11,
-      "crop": [
-        1090,
-        556,
-        320,
-        338
-      ],
-      "sha256": "f8b8324cdaebcb37fd52af58926cb80d331d84bd470fe132e4cdea4599d89687",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "e7078262ab7ac925bc581200d86cd076387e76dbcf547e0fcc0edcb66802655b",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A thin focused cut peels a layer of stony armor off a faceless turquoise statue; the thick mantle curls upward into grey rubble, exposing a bright red crack across the center. Big angular contrast of gray, steel blue and bead red. Focal injury is on stone.",
+        "reference": null
+      }
     },
     {
       "key": "SoulAnchor",
@@ -1004,17 +920,15 @@
       "MagicUp": 1,
       "Extra": 1,
       "Rule": "WeakBurn",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/17908.swf",
-      "sprite": 13,
-      "frame": 14,
-      "crop": [
-        1160,
-        584,
-        260,
-        350
-      ],
-      "sha256": "6a74141c95e222ceee83b1e82ccfc7edb1d6081f327498ddf9c208ae616f88d7",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "12774de28e1c58067e828f3c33ba4f7085aca210dc83e8bd0930c3c1535273d6",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A massive dark metal hook drags a violet spirit reflection down into a pool as a bright three-pronged mark locks it to the floor. Use one weighty lower-right silhouette and drawn-out pale rope. Plunge perspective, silver lilac and navy.",
+        "reference": null
+      }
     },
     {
       "key": "OrbitingLight",
@@ -1029,17 +943,15 @@
       "Block": 3,
       "BlockUp": 2,
       "Rule": "AttackBlock",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/30466.swf",
-      "sprite": 21,
-      "frame": 11,
-      "crop": [
-        1032,
-        694,
-        414,
-        134
-      ],
-      "sha256": "707ac18073f17e7903ec8d369a2fcd0e5ab3511df25e8bcd8ca5739ac889a678",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "0e4c041e4413b417783870bef160474c43854339ebd120f1a3c8d605c5d3aaab",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  One far-golden boomerang has curved behind a distant stone pillar and is coming back toward the viewer, seen from high above dusty slate ridges. Mint green atmosphere shot with bronze-yellow object. Show a nearly circular path with the blade readable. No runes.",
+        "reference": null
+      }
     },
     {
       "key": "SealForesight",
@@ -1054,17 +966,15 @@
       "Extra": 1,
       "Exhaust": true,
       "Rule": "DrawSpirit",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/31844.swf",
-      "sprite": 22,
-      "frame": 6,
-      "crop": [
-        1126,
-        600,
-        414,
-        400
-      ],
-      "sha256": "4ccf9f2d9b4c1bcee54b866625e00d198a9059b4f8374fde992326177c9c4e6b",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "35102a7459b3b89b843d46acefd93b12b162bdf1d647f1716176ae814a04cf45",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Near view of a black mirror with three wax-sealed blank scraps half burned floating inside its reflection, while ghost shapes of later ash hang beyond the glass. Juniper greens and buttery flame with one sharp amethyst glint. Triangular composition.",
+        "reference": null
+      }
     },
     {
       "key": "QuietMind",
@@ -1077,17 +987,15 @@
       "Magic": 1,
       "MagicUp": 1,
       "Rule": "CleanseDraw",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/25678.swf",
-      "sprite": 25,
-      "frame": 14,
-      "crop": [
-        390,
-        456,
-        548,
-        568
-      ],
-      "sha256": "97ae626af43677f23f25eb0dd0d3c355761188fc393c9331ab86292007273846",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "443c48578073860907c8ece4d671fe854a8ddb05d14598143511af639620fe8a",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  In a still pool, the side of a clean porcelain bowl and a pair of soaked torn paper pieces dissolve into clear concentric ripples. No bright effects, just one jade branch, a slant of quiet sunlight and warm white reflections. Peaceful lichen blue-green and muted apricot.",
+        "reference": null
+      }
     },
     {
       "key": "CelestialCross",
@@ -1102,17 +1010,15 @@
       "Magic": 5,
       "MagicUp": 1,
       "Rule": "MarkedAttack",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10356.swf",
-      "sprite": 11,
-      "frame": 12,
-      "crop": [
-        120,
-        64,
-        496,
-        312
-      ],
-      "sha256": "ee430489285571a8082cd5d6126f2954863cb2ad4b78f3e655afaea75324e849",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "b5e0c1354b433630ea9ad27ac5c13377d1a3a9830e5d9015e71c80d4bc64a200",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  An X made from two precise luminous incision lines has cut cleanly through a basalt idol on a narrow bridge; the scar in the stone bursts white at center; the remaining silhouette stays readable. Slate blue and rose pink with cream at the intersection. Looking up under the bridge.",
+        "reference": null
+      }
     },
     {
       "key": "DispelPulse",
@@ -1127,17 +1033,15 @@
       "Magic": 1,
       "Exhaust": true,
       "Rule": "WeakenAll",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10367.swf",
-      "sprite": 45,
-      "frame": 7,
-      "crop": [
-        44,
-        52,
-        632,
-        318
-      ],
-      "sha256": "a5520faa54725d4c65f6121e75de6d2fcc723d7e30c7dd7771c381e536a69299",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "0eaf7634235b864061f2c53b69e1acf5569f0a89172e6b3b113d1102628e0825",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A golden tuning stone lifted above a rocky plateau emits one low, broad copper blast across a line of three shadow creatures, blowing mist backward. Nearly silhouetted subjects, diagonal horizon, desaturated orange and black-blue shadows.",
+        "reference": null
+      }
     },
     {
       "key": "RenewedVigor",
@@ -1151,19 +1055,17 @@
       "MagicUp": 0,
       "Exhaust": true,
       "Rule": "SealHeal",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/30469.swf",
-      "sprite": 31,
-      "frame": 11,
-      "crop": [
-        1190,
-        636,
-        346,
-        312
-      ],
-      "sha256": "38930f84257239a74ade06b429f532c8c7ce09d8d295b9d5cadb6b449edeffac",
       "Extra": 1,
       "CostUp": -1,
-      "HasX": true
+      "HasX": true,
+      "width": 500,
+      "height": 380,
+      "sha256": "ea28262ea4bf106747bfa78f10f2883c4ed62537874f667cfed4fbb0eca23a1b",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A lone faceted jade bud bursts from thawing earth, a spiral breath curling upward around its strong new trunk. Seen at ground level with foreground stones huge and background mountains small. Chartreuse, bright ice-blue, and humid earth tones.",
+        "reference": null
+      }
     },
     {
       "key": "SevenfoldShield",
@@ -1178,17 +1080,15 @@
       "Magic": 2,
       "MagicUp": 1,
       "Rule": "SealBlock",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/30468.swf",
-      "sprite": 19,
-      "frame": 11,
-      "crop": [
-        1050,
-        600,
-        458,
-        328
-      ],
-      "sha256": "bcf39751986d6e6c9083048126255e05bd35d05f358f3a2c0c489506cca1da64",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "1c8f304a5745057fc94cf907011e8070d1f01d7c5fb9826878feb8944c71d417",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A ceremonial shield made of layered bands of different shields interlocking like a folding shell, one band actively sliding into place. Front three-quarter closeup in a dark underwater blue vault. Azure slate, brass edge and white stone, distinctive layered shape.",
+        "reference": null
+      }
     },
     {
       "key": "FlowingThought",
@@ -1202,17 +1102,15 @@
       "MagicUp": 1,
       "Extra": 1,
       "Rule": "DrawSpirit",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/23771.swf",
-      "sprite": 40,
-      "frame": 12,
-      "crop": [
-        524,
-        648,
-        302,
-        254
-      ],
-      "sha256": "e03dcdcf4b9eb4346fcf7aba53e02f18f2a5234365fedf9757e1fce4c378cea9",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "be0ab38241695642e95664486fa834f551b30c251201c18572bea48d552c14ad",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Three slender white paper wisps thread along a slow S-shaped stream of thought suspended over a dark terracotta canyon; a dim orange spirit rests in the middle eddy. Honey-gold over plum, warm slate and pale cream. Top-down landscape.",
+        "reference": null
+      }
     },
     {
       "key": "SealConversion",
@@ -1225,17 +1123,15 @@
       "Magic": 6,
       "MagicUp": -2,
       "Rule": "ConvertBlock",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10366.swf",
-      "sprite": 25,
-      "frame": 11,
-      "crop": [
-        348,
-        280,
-        340,
-        398
-      ],
-      "sha256": "62163bb0626491db9e0dd8fcc13fba45b81eba9d97254e877c21bee893fe69b8",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "d0a485a6441b69ad49841d6e0506f40a9760c4ed6b210094979edfbc75111436",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Create ONE finished full-bleed landscape fantasy card illustration for the Puni character mod for Slay the Spire 2. Use the attached Seer reference as the design of Puni only: the core is a thin golden double helix with six long branching gold-white tendrils, dark bronze petal-like plates with gold lines and eyes below, and cyan seal-light. Puni is a floating nonhumanoid spirit. Never give it a human face, arms, feathers, dragon face, or humanoid torso. Paint original anatomy in perspective, never paste the reference or default to the reference's frontal idle pose. Rich painterly fantasy with bold simplified shapes and textured edges, readable on a small screen. Landscape aspect 4:3 (final artwork slot 500x380), fill every edge, major forms in central 75%. Clear focal point. Absolutely no text, no numbers, no interface, no border, no floating cards, no separate ability pictograms. The mechanic should be felt through a scene or a material changing. Match the specific framing and visual action below.\n\nUnexpected close-up from the side in a dry red clay cavern, of a vestigial cracked bronze petal of Puni's armor as it falls away. Its broad part is dissolving into warm embers, those same embers are drawn up into the narrow luminous coils of Puni's helix at upper right, revealing the freshly lit new gold rim underneath. One golden ribbon-limb bends around the frame. Oxide red with smoke and one electric turquoise highlight. Make the scene a molt and reclamation of its own body, with one coherent directional flow of matter, never a machine or a pile of discarded objects.",
+        "reference": "work/PuniMod/PuniMod/images/puni.png"
+      }
     },
     {
       "key": "RadiantArmor",
@@ -1248,17 +1144,15 @@
       "Magic": 1,
       "MagicUp": 1,
       "Rule": "RadiantArmorPower",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/31845.swf",
-      "sprite": 16,
-      "frame": 10,
-      "crop": [
-        1162,
-        586,
-        292,
-        294
-      ],
-      "sha256": "dc5ce4dc1aad03fbfc58639f8551807c7f9cb34a72ccf23d8a56ce12daa6a078",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "e09afffa4e77d5a6018d87a5f7cb7343385013b5e40ab07622303840c458cb8d",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  One sculptural layered piece of ancient light armor assembles into curved shoulders without a body, in a workshop hung with warm copper chains. The point of connection is a luminous cross-fracture. Matte ochre, black plum and pearl yellow. A large tangible chestplate.",
+        "reference": null
+      }
     },
     {
       "key": "SealMeditation",
@@ -1271,17 +1165,15 @@
       "Magic": 1,
       "MagicUp": 1,
       "Rule": "SealMeditationPower",
-      "source": "https://seer.61.com/resource/fightResource/pet/swf/1400714.swf",
-      "sprite": 928,
-      "frame": 40,
-      "crop": [
-        382,
-        596,
-        1400,
-        948
-      ],
-      "sha256": "08dec0522fd2db70fdb7b12472e2db1fb25fd6f2584b8f0d20ded51876db590f",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "b4260e630fd115690e2d5e1557c0733861d656c222445249ff6f658fa42a602a",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  The attached transparent Puni sprite is the character identity reference only; paint a fresh scene and never reproduce the sprite as a sticker. A small floating faceless non-humanoid branching holy spirit meditates just above an old circular rock resting in a vast sunlit ochre void. One tiny spirit light responds to the ritual. Warm dune beige, rust and dusty ultramarine shadow. Ground-level contemplative space.",
+        "reference": "work/PuniMod/PuniMod/images/puni.png"
+      }
     },
     {
       "key": "DawnRecovery",
@@ -1294,17 +1186,15 @@
       "Magic": 12,
       "MagicUp": 4,
       "Rule": "DawnRecoveryPower",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/20606.swf",
-      "sprite": 57,
-      "frame": 6,
-      "crop": [
-        26,
-        50,
-        738,
-        428
-      ],
-      "sha256": "1d0fdc21ad34131ee5761d09708f28aac8decfa50d594a1a5b0b391c6bf0a264",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "d603db40fe1f4e9344678c53361c03b6c3fbc18c2f6f2d91b0ec8c88661bca8f",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A deep red break in a chalk-white shield has just been struck; the crack heals into a sun-hardened second layer glowing with salmon morning light. The hill behind is only a gradient, object a full closeup from left and above. Vermilion, rose gold and pearl.",
+        "reference": null
+      }
     },
     {
       "key": "PrismMind",
@@ -1317,17 +1207,15 @@
       "Magic": 1,
       "MagicUp": 1,
       "Rule": "PrismMindPower",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/25338.swf",
-      "sprite": 29,
-      "frame": 6,
-      "crop": [
-        500,
-        600,
-        340,
-        314
-      ],
-      "sha256": "db824254db3330427af2475cb472b30b2df90db61e2b90a6c770c3db5def2757",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "be3c08bd5d59ee5c8e2d101c8d58b4b30dff18ffa539c44bfae7f0bafbe2497e",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A copper-tinted prism behind a single eye-shaped dark opening sends two pale vellum leaves out in separate spectral planes on the two sides. Avant-garde, small-scale close-up, opal green, dusty saffron and deep nut brown. No humanoid eye anatomy.",
+        "reference": null
+      }
     },
     {
       "key": "HolyThorns",
@@ -1340,17 +1228,15 @@
       "Magic": 1,
       "MagicUp": 1,
       "Rule": "HolyThornsPower",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10999.swf",
-      "sprite": 58,
-      "frame": 26,
-      "crop": [
-        1000,
-        52,
-        540,
-        1010
-      ],
-      "sha256": "fb6390021c567e8aba4eee14f78f2165dc2ba39eb873b676ec8595c9ba1cf026",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "d70bef19006ca03ce9dcf3871c0bc0a6cc51fe27266d1cacf80a1acc596006c0",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Deep jungle ruins, one tall opened seal throws razor-thin ivory thorns of light toward three shadowy targets below. View looking down from the seal's upper flank. Brick purple and teal fog; dramatic sharp ivory arcs.",
+        "reference": null
+      }
     },
     {
       "key": "RiftMastery",
@@ -1363,17 +1249,15 @@
       "Magic": 1,
       "MagicUp": 1,
       "Rule": "RiftMasteryPower",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/11000.swf",
-      "sprite": 90,
-      "frame": 24,
-      "crop": [
-        1118,
-        438,
-        384,
-        790
-      ],
-      "sha256": "e56ea5f3b2a85317501b5bc98bc210507bdadff66a7739c181086e907a132a02",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "b3f896ce35da16dc7f1ff2d98918c673b4f5bd5096f12c9556421e982184bff0",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A dark ember-lit grimoire beside a violet dimensional fissure, a paper charm ignites at the tip, and a fracture mark blooms on a stone silhouette on the far other side. Parchment and phthalo purple. Point of view at book level, bold vertical gap.",
+        "reference": null
+      }
     },
     {
       "key": "PrismaticSkin",
@@ -1386,17 +1270,15 @@
       "Magic": 3,
       "MagicUp": 2,
       "Rule": "PrismaticSkinPower",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/31847.swf",
-      "sprite": 21,
-      "frame": 10,
-      "crop": [
-        1140,
-        642,
-        304,
-        280
-      ],
-      "sha256": "993d4b42ccb7c1776ab13b23a264d59a5a4f62bcecf9f548ee2634cde512fdf9",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "e1e51dd432bbec1219eb37dc98e72aa4768a3a0e5fed0b83354413193f5898c2",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Under a mint-green cavern light, a faceless spirit acquires a thick shell of translucent glass flakes while torn shards of cursed black paper burn up around it. Overhead close-up of three large planes reflecting honey gold and arctic blue.",
+        "reference": null
+      }
     },
     {
       "key": "Stillness",
@@ -1409,19 +1291,17 @@
       "Magic": 1,
       "MagicUp": 0,
       "Rule": "SpiritDexterity",
-      "source": "https://seer.61.com/resource/fightResource/pet/swf/1400714.swf",
-      "sprite": 825,
-      "frame": 40,
-      "crop": [
-        636,
-        936,
-        390,
-        438
-      ],
-      "sha256": "7fcd57d72693bcbe10add38d974e4dda144576a3d8750ad489ad38c05fa83db5",
       "Extra": 3,
       "ExtraUp": -1,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "97269f3cfeaef98fee5e2b33c9e8e6e2ccbd1e524af2336baac6df043a311c94",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Spirit-lights hover perfectly motionless around a single black pearl over quiet snow with the rocky horizon far away. One fine lavender reflection. Highly restrained icy desaturated cyan and slate, a deliberate broad empty sky across the image.",
+        "reference": null
+      }
     },
     {
       "key": "EchoingLight",
@@ -1434,17 +1314,15 @@
       "Magic": 5,
       "MagicUp": 2,
       "Rule": "EchoingLightPower",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/30467.swf",
-      "sprite": 19,
-      "frame": 11,
-      "crop": [
-        1156,
-        704,
-        306,
-        206
-      ],
-      "sha256": "dd5b6fd2458cc4561a05728fd4504ef4b5bd95e761401dad184acfd5028ac3e5",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "680ee08751d73c575868796d1ed68ecdc7d0d3fed95fd1daec76434fba6a7fac",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  At a marked stone target, one soft delayed echo follows behind a light-struck impact, a second overlapping outline that makes the fracture glow. First strike a sharp white arrow crossing right-to-left, echo coral. Aegean blue shapes framing the right off-centre impact.",
+        "reference": null
+      }
     },
     {
       "key": "GatheringGlow",
@@ -1457,17 +1335,15 @@
       "Magic": 6,
       "MagicUp": 3,
       "Rule": "GatheringGlowPower",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10369.swf",
-      "sprite": 33,
-      "frame": 6,
-      "crop": [
-        8,
-        44,
-        500,
-        488
-      ],
-      "sha256": "56bf86d9af792597d3baacacf10e3dfef695ef28ee38f1c26b9aaaa679e1a36a",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "3c19a8829b08296643c8e89c5ab1fec331a32bd93866e2686431ae7d3769f76b",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Two matching bells in very different depths ring in the same visual moment, distinct overlapping cream sound ripples fill a deep peach-washed canyon. One small original sigil on each bell, no text. Rose quartz, verdigris and tinted silver. Side-on layered depth.",
+        "reference": null
+      }
     },
     {
       "key": "HolyLightQi",
@@ -1475,23 +1351,21 @@
       "cost": 1,
       "type": "Skill",
       "rarity": "Rare",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/20500.swf",
-      "sprite": 21,
-      "frame": 17,
-      "crop": [
-        142,
-        134,
-        284,
-        286
-      ],
-      "sha256": "f44fcbc7776a6ee5d8ab55195d54357913e0de8e31d2570a7fc064a64745e95f",
       "target": "Self",
       "description": "接下来 {Magic} 个回合，你的攻击伤害翻倍。",
       "Magic": 2,
       "Exhaust": true,
       "CostUp": 0,
       "MagicUp": 1,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "dc0cf6779d74b67a41a6a79ea7ffa8b589810be5b96d949b9c19d951a888a497",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  The attached transparent Puni sprite is the character identity reference only; paint a fresh scene and never reproduce the sprite as a sticker. An ancient faceless branching spirit draws a breath and its two living ivory-gold wing-shaped energy tails both surge strongly forward, hovering high above bold teal mountains. Far-back view with much blue space and a sharp central chevron. Gold and deep petroleum.",
+        "reference": "work/PuniMod/PuniMod/images/puni.png"
+      }
     },
     {
       "key": "HolySpiritFlash",
@@ -1499,21 +1373,19 @@
       "cost": 3,
       "type": "Attack",
       "rarity": "Rare",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/11000.swf",
-      "sprite": 90,
-      "frame": 16,
-      "crop": [
-        1072,
-        428,
-        458,
-        800
-      ],
-      "sha256": "71f25b92929b281379a7874ec4665f24697e487c363aae356a0aed1778a2f0c3",
       "target": "AnyEnemy",
       "description": "造成 {Damage:diff()} 点伤害。\n再造成相当于目标出牌前生命值 1/8 的固定伤害（向上取整）。",
       "Damage": 40,
       "DamageUp": 16,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "cd8cb104676a594e921f286106109b9634f9e2c44261d1332ba58ac1dc28d268",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  The attached transparent Puni sprite is the character identity reference only; paint a fresh scene and never reproduce the sprite as a sticker. Far over a night-black canyon, a gigantic sapphire and white lance of holy energy strikes downward from a tiny golden branching spirit in the upper right, splitting a dark crystal colossus near the lower left, fracture branches through the stone. Deep electric indigo and lemon-white rim. Monumental scale.",
+        "reference": "work/PuniMod/PuniMod/images/puni.png"
+      }
     },
     {
       "key": "SevenSeals",
@@ -1521,22 +1393,20 @@
       "cost": 0,
       "type": "Skill",
       "rarity": "Rare",
-      "source": "https://seer.61.com/resource/fightResource/pet/swf/1400714.swf",
-      "sprite": 971,
-      "frame": 60,
-      "crop": [
-        270,
-        250,
-        750,
-        666
-      ],
-      "sha256": "7acb9c3a24ec55a19103a062b9b5d48979c70120d1fe0862761e4443a06e4f46",
       "target": "Self",
       "description": "获得 {Magic} 点[gold]圣灵[/gold]。",
       "Magic": 7,
       "MagicUp": 2,
       "Exhaust": true,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "1fc4e0ee3ffceaf3efcb6e6e0b553e3c3f381f5e54f5a1547991b58487b272e3",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Create ONE finished full-bleed landscape fantasy card illustration for the Puni character mod for Slay the Spire 2. Use the attached Seer reference as the design of Puni only: the core is a thin golden double helix with six long branching gold-white tendrils, dark bronze petal-like plates with gold lines and eyes below, and cyan seal-light. Puni is a floating nonhumanoid spirit. Never give it a human face, arms, feathers, dragon face, or humanoid torso. Paint original anatomy in perspective, never paste the reference or default to the reference's frontal idle pose. Rich painterly fantasy with bold simplified shapes and textured edges, readable on a small screen. Landscape aspect 4:3 (final artwork slot 500x380), fill every edge, major forms in central 75%. Clear focal point. Absolutely no text, no numbers, no interface, no border, no floating cards, no separate ability pictograms. The mechanic should be felt through a scene or a material changing. Match the specific framing and visual action below.\n\nA long oblique overhead view of Puni suspended just above a rounded ancient star-map floor made of large stone inlay blocks. The narrow gold helix is small and placed off center at lower right. Seven readable material motifs stamped into the stone along a wide spiral come alive in succession like luminous tracks travelling inward across the rock; the last reaches the helix. Avoid rainbow scatter: the whole floor is dusk lavender and silver with subdued ultramarine crevices and a warm gold center. Grand bare composition. From card size it reads as seven parts of one ancient mechanism resonating with a distinct living source. No doors, no catalogue of icons, no floating rune circles.",
+        "reference": "work/PuniMod/PuniMod/images/puni.png"
+      }
     },
     {
       "key": "TrueManifestation",
@@ -1544,21 +1414,19 @@
       "cost": 3,
       "type": "Power",
       "rarity": "Rare",
-      "source": "https://seer.61.com/resource/fightResource/pet/swf/1400714.swf",
-      "sprite": 987,
-      "frame": 1,
-      "crop": [
-        586,
-        1066,
-        480,
-        446
-      ],
-      "sha256": "f7cc48156c5a5290c54167a36445ba1fe5adcdabf1ee5c2d937feccc64a94129",
       "target": "Self",
       "description": "本场战斗你的攻击伤害翻倍。\n获得 {Block:diff()} 点[gold]格挡[/gold]。\n不与自身或封印提供的圣灵真身叠加，可与圣光气叠加。",
       "Block": 30,
       "BlockUp": 15,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "ee55e3a6558bfaae9853962144f6dd30b1e435c67233021f575a95c909a4107b",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  The attached transparent Puni sprite is the character identity reference only; paint a fresh scene and never reproduce the sprite as a sticker. Portrait of Puni's fully unlocked original form: faceless braided gold-and-ivory core, three pairs of swooping branching tendrils, pointed black-bronze gold-marked petals hanging below, sky-blue energy. At the top of a vast ice-white stair in a deep lapis cloud sea. Strong iconic silhouette fills the frame; reverent and still.",
+        "reference": "work/PuniMod/PuniMod/images/puni.png"
+      }
     },
     {
       "key": "BrilliantHolyLight",
@@ -1566,16 +1434,6 @@
       "cost": 3,
       "type": "Skill",
       "rarity": "Rare",
-      "source": "https://seer.61.com/resource/fightResource/pet/swf/1400714.swf",
-      "sprite": 825,
-      "frame": 100,
-      "crop": [
-        524,
-        788,
-        1222,
-        866
-      ],
-      "sha256": "6e6e31292496645612ac6754ffc2f457e24a30bdad57730d1a879a2bf893a432",
       "target": "Self",
       "description": "获得 2 层[gold]无实体[/gold]。\n回复最大生命值的 1/3。\n接下来 2 个回合，你的攻击伤害翻倍。",
       "Magic": 0,
@@ -1583,7 +1441,15 @@
       "Extra": 2,
       "Exhaust": true,
       "CostUp": -1,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "84af2740de5304f504fb32e00da3718accb84dcea5111c3309d12bdb357164c9",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A small faceless light spirit inside a tall prism of opaline daylight, with its translucent protective shell and soft golden heart restored as dark shards fall away, seen up from the base of a violet mountain. Cream, pearly rose, and soft spots of pale periwinkle.",
+        "reference": null
+      }
     },
     {
       "key": "HeavenlyBloom",
@@ -1591,23 +1457,21 @@
       "cost": 1,
       "type": "Attack",
       "rarity": "Rare",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/17912.swf",
-      "sprite": 90,
-      "frame": 8,
-      "crop": [
-        536,
-        638,
-        350,
-        350
-      ],
-      "sha256": "66e36e1e4585325a2c6246b6ad75a724f4461b34d450bc6986c5b34fb110bc0f",
       "target": "AnyEnemy",
       "description": "夺取目标的全部正力量，移除目标的所有增益。\n造成 {Damage:diff()} 点伤害。",
       "Damage": 12,
       "DamageUp": 4,
       "Magic": 0,
       "MagicUp": 0,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "f7330c157704a754f736f28db18a72dfd6e563a1b677c5cebc5b5a9a5ca14386",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Luminous pink-gold petals rise in a sharp diagonal from a spectral sword wound already carved into a dark boulder, then branch upward into a falling cascade. The petals form a striking recognisable cluster at the lower right. Mulberry, warm orchid and pale copper.",
+        "reference": null
+      }
     },
     {
       "key": "SoulRequiem",
@@ -1615,23 +1479,21 @@
       "cost": 2,
       "type": "Attack",
       "rarity": "Rare",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/18006.swf",
-      "sprite": 90,
-      "frame": 32,
-      "crop": [
-        1060,
-        630,
-        460,
-        410
-      ],
-      "sha256": "cc2d007be175e8fc79fb7ae986b2f3709b80d614fb8577ae0b7eab5471238b85",
       "target": "AllEnemies",
       "description": "对所有敌人造成 {Damage:diff()} 点伤害。\n给予所有敌人 {Magic} 层[gold]虚弱[/gold]和[gold]易伤[/gold]。",
       "Damage": 20,
       "DamageUp": 4,
       "Magic": 2,
       "MagicUp": 1,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "9797bfdfffcbbd1ebcc1f9786874c145dd594460cc7e67ffde8b6d71f692b62e",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A low viewpoint behind a cracked bronze organ that spills broad cyan ribbons of haunting sound toward three distant shadow silhouettes near an icy peak. Spaced dark-elegiac composition, smoked lilac, storm grey and dusty teal; dramatic cold lighting.",
+        "reference": null
+      }
     },
     {
       "key": "HolyShadowBreak",
@@ -1639,16 +1501,6 @@
       "cost": 2,
       "type": "Attack",
       "rarity": "Rare",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/31143.swf",
-      "sprite": 53,
-      "frame": 13,
-      "crop": [
-        1096,
-        508,
-        436,
-        436
-      ],
-      "sha256": "3296a6c456c2f98d3229f2bf3e17e933a6c27373ce4a270b365a30c4db7a25c4",
       "target": "AnyEnemy",
       "description": "移除自身所有减益。\n造成 {Damage:diff()} 点伤害。\n回复 {Magic} 点生命，获得 {Extra} 点[gold]力量[/gold]。",
       "Damage": 16,
@@ -1658,7 +1510,15 @@
       "Extra": 3,
       "Exhaust": true,
       "ExtraUp": 1,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "640ff1dd2b6d29f735ae64ed6a055199bbb6ca835e495ea7f00e261d9be415b5",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Two diagonals pull apart an inky shroud to reveal a gold glint of recovery on rough black stone. One hot gold strike goes left, its cobalt shadow peels right. Near-overhead view with cobalt, rusty orange and muted turquoise. Emphasize the shroud breaking.",
+        "reference": null
+      }
     },
     {
       "key": "DawnJudgment",
@@ -1672,18 +1532,16 @@
       "DamageUp": 4,
       "Magic": 0,
       "Rule": "SpiritAttack",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/16685.swf",
-      "sprite": 66,
-      "frame": 7,
-      "crop": [
-        1130,
-        646,
-        452,
-        308
-      ],
-      "sha256": "07e70959022f7c0e77fab110b3c8d420497cd22f02f3fb81fec11f060e93d482",
       "MagicUp": 0,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "67e86b17a09bdb85ac1b8cbe9626f5a062030cbb147822d1e7b2950602fcc7b3",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A gigantic gilded blade of dawn drops straight down from a clean white horizon line into the center of a red temple floor, visibly fed by several distant spirit points reflected through the blade. Copper-red tile, violet shadows and bleached sunrise, bird's-eye three-quarter view.",
+        "reference": null
+      }
     },
     {
       "key": "SealAcceleration",
@@ -1698,17 +1556,15 @@
       "Extra": 0,
       "Exhaust": true,
       "Rule": "XSeal",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10363.swf",
-      "sprite": 31,
-      "frame": 7,
-      "crop": [
-        42,
-        42,
-        358,
-        316
-      ],
-      "sha256": "ba4278cb13811240c5d4496a6290a9005cb96cbd642dee99a6b527f02f92e725",
-      "HasX": true
+      "HasX": true,
+      "width": 500,
+      "height": 380,
+      "sha256": "84854d0ba6f8569f89b0421c9c9885dbc5957095c583bbe754bccb32bae26853",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Create ONE finished full-bleed landscape fantasy card illustration for the Puni character mod for Slay the Spire 2. Use the attached Seer reference as the design of Puni only: the core is a thin golden double helix with six long branching gold-white tendrils, dark bronze petal-like plates with gold lines and eyes below, and cyan seal-light. Puni is a floating nonhumanoid spirit. Never give it a human face, arms, feathers, dragon face, or humanoid torso. Paint original anatomy in perspective, never paste the reference or default to the reference's frontal idle pose. Rich painterly fantasy with bold simplified shapes and textured edges, readable on a small screen. Landscape aspect 4:3 (final artwork slot 500x380), fill every edge, major forms in central 75%. Clear focal point. Absolutely no text, no numbers, no interface, no border, no floating cards, no separate ability pictograms. The mechanic should be felt through a scene or a material changing. Match the specific framing and visual action below.\n\nLow viewpoint looking obliquely through successive staggered slabs floating above a snow-blue abyss. The closest basalt gate occupies the left foreground, its heavy physical latch conspicuously intact, seen in silhouette. Beyond the still-latched barriers, three fast pale-gold afterimages shaped like Puni's distinct forked tendrils have already raced to far side; the true narrow helix is still dimly present before the barrier. Paint the afterimages flowing around and through seams; no shattered lock or exploding barrier. Sapphire frost, steel blue, and a single clear diagonal ivory light motion. Make it read as escaping a delay instantly rather than a circular portal. Oblique wide composition.",
+        "reference": "work/PuniMod/PuniMod/images/puni.png"
+      }
     },
     {
       "key": "SacredReversal",
@@ -1723,18 +1579,16 @@
       "Magic": 2,
       "Exhaust": true,
       "Rule": "Reversal",
-      "source": "https://seer.61.com/resource/fightResource/pet/swf/1400714.swf",
-      "sprite": 971,
-      "frame": 80,
-      "crop": [
-        430,
-        440,
-        418,
-        446
-      ],
-      "sha256": "0f4ce1fab4f94a25681cb60e63d25264b45968b9a44d974bb3e92c40247dcaca",
       "MagicUp": 1,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "d1f06f9cb6a784e83645467f055b88f293df0671d53e5b4dd4057b0a8f52c958",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  View directly under a levitating curved shield, whose flipped underside traps a falling wave of dark grit outside. Two freed parchment scraps circle out of the clearing. Rich sunset purple dividing from cool slate above, electric pink accent.",
+        "reference": null
+      }
     },
     {
       "key": "EternalDawn",
@@ -1749,18 +1603,16 @@
       "Extra": 2,
       "Exhaust": true,
       "Rule": "HealEnergy",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/23800.swf",
-      "sprite": 9,
-      "frame": 6,
-      "crop": [
-        594,
-        654,
-        210,
-        216
-      ],
-      "sha256": "52c9c8a5fbb1485c7a3e0d7dd8299cf1d3cda2956cf2fbce66fa246ee841d60b",
       "ExtraUp": 1,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "b96dcf87e172d520a12398f288481557ed2a70b105a9e209ce4c537b21dff171",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Three small piles of thorn-stained waste paper are burning together in separate sunken apertures on an old stone worktable; a small dawn-colored spirit rises from each. Sunrise reflected off damp charcoal, rose orange and amethyst ash. Wide top-down triangle.",
+        "reference": null
+      }
     },
     {
       "key": "Singularity",
@@ -1776,19 +1628,17 @@
       "MagicUp": 6,
       "Exhaust": true,
       "Rule": "RiftSingularity",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/30469.swf",
-      "sprite": 31,
-      "frame": 15,
-      "crop": [
-        1150,
-        610,
-        348,
-        356
-      ],
-      "sha256": "33df05aa1a753b59b888896fa82d8ad588317cfc92a53f34dfa4b6b0241b0319",
       "Extra": 0,
       "ExtraUp": 0,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "ec804bb5997c94fcd4cf60e98d15d349e56f53807981f3797d2858723f9795c1",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A small black hole suspended over a plain of dark rock, dragging many identifiable turquoise fracture marks toward a thread-thin orbit. Wide mid shot with unusual asymmetry and large empty shadow. Electric turquoise streaks against charcoal brown and a hazy vermilion rim.",
+        "reference": null
+      }
     },
     {
       "key": "SevenfoldStrike",
@@ -1802,18 +1652,16 @@
       "DamageUp": 0,
       "Extra": 7,
       "Rule": "MultiHit",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10364.swf",
-      "sprite": 17,
-      "frame": 15,
-      "crop": [
-        226,
-        104,
-        336,
-        248
-      ],
-      "sha256": "676dc1742ffa7b527703501ef21fefa77b00a1dc83b878561f2b688cb072e98c",
       "ExtraUp": 5,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "d48aee33f0c6071115db9b91e87240586bece7e23900bb511bc296bc6d12d9fb",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Seven small narrow seals release seven parallel golden needles one after the other along a rail of interlocking stones, cutting at one distant black basalt block. Stretch the direction across a slate-blue horizon. Burnt gold and eggshell with deep cobalt, strong motion without burst shapes.",
+        "reference": null
+      }
     },
     {
       "key": "VoidSanctuary",
@@ -1828,17 +1676,15 @@
       "Magic": 2,
       "Exhaust": true,
       "Rule": "IntangibleBlock",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/20498.swf",
-      "sprite": 35,
-      "frame": 26,
-      "crop": [
-        54,
-        38,
-        338,
-        274
-      ],
-      "sha256": "d5f2c9a775e559d0f956be563045eb9270275d7e8ed4d1ffb00830cb6c7d9dce",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "249128e0917ca4aa775db43f2bb67204aeedbe1bf67de877d9f75c0efc42c599",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Empty otherworldly chambers sealed inside a huge dark-violet hemisphere, seen through a gap in a low ruined parapet. Two ghost layers shimmer around the protective dome; depth using eight distinct broad shapes. Violet charcoal, chalk mauve and one weak apple-green glow.",
+        "reference": null
+      }
     },
     {
       "key": "ShiningEdict",
@@ -1853,18 +1699,16 @@
       "ExtraUp": 1,
       "Exhaust": true,
       "Rule": "Edict",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10368.swf",
-      "sprite": 17,
-      "frame": 11,
-      "crop": [
-        262,
-        444,
-        414,
-        308
-      ],
-      "sha256": "bdee7b880f97999bbd7ba90114a2f078ad693fbb5e3f4a03bef9a7bc8aefc17a",
       "MagicUp": 3,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "a6cc4a3300f6e34da4e3eaafbc8e18ea436f0e47d7882535b9d3a437a205108e",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A crimson wax decree opens in the air, shedding one broken lock as one carved symbol projects two brilliant matching shadows across a slate wall. Side-facing parchment silhouette, pearl white edges, burgundy wax and dark bronze. No lettering or script.",
+        "reference": null
+      }
     },
     {
       "key": "SoulReturn",
@@ -1879,17 +1723,15 @@
       "Extra": 2,
       "Exhaust": true,
       "Rule": "HealDraw",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/17955.swf",
-      "sprite": 13,
-      "frame": 19,
-      "crop": [
-        1174,
-        648,
-        238,
-        210
-      ],
-      "sha256": "19e5af2308ba1a8031ac8dbb5f04e857fd42b820b0821a5256fe7b425effc0a2",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "cb5f5f5ff45d263c1c68073393cc011d55df19e9c768bf00fb5b4e750a927f26",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  Across a blue dusk lake, a fallen small spirit moves home along a warm ochre causeway, reflected like a trail of memory. Long perspective with foreground stones and two bright pages floating near the path. Ultramarine, mauve and gold, emotionally gentle.",
+        "reference": null
+      }
     },
     {
       "key": "SealAwakening",
@@ -1905,18 +1747,16 @@
       "MagicUp": 1,
       "Exhaust": true,
       "Rule": "Awakening",
-      "source": "https://seer.61.com/resource/fightResource/pet/swf/1400714.swf",
-      "sprite": 825,
-      "frame": 20,
-      "crop": [
-        376,
-        930,
-        464,
-        488
-      ],
-      "sha256": "6122d00b873397604857eb6105613b1a362e8ab622391a3efa64da1ce821564b",
       "Extra": 2,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "01451446a104ecaec3d3f88ec441e4bf1c1b610af6c0ca0646d03bb9b18a1041",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Create ONE finished full-bleed landscape fantasy card illustration for the Puni character mod for Slay the Spire 2. Use the attached Seer reference as the design of Puni only: the core is a thin golden double helix with six long branching gold-white tendrils, dark bronze petal-like plates with gold lines and eyes below, and cyan seal-light. Puni is a floating nonhumanoid spirit. Never give it a human face, arms, feathers, dragon face, or humanoid torso. Paint original anatomy in perspective, never paste the reference or default to the reference's frontal idle pose. Rich painterly fantasy with bold simplified shapes and textured edges, readable on a small screen. Landscape aspect 4:3 (final artwork slot 500x380), fill every edge, major forms in central 75%. Clear focal point. Absolutely no text, no numbers, no interface, no border, no floating cards, no separate ability pictograms. The mechanic should be felt through a scene or a material changing. Match the specific framing and visual action below.\n\nNear-macro close shot of a golden-white double-helix core trapped beneath the cracked dark bronze carapace of Puni. The two halves of an eye-marked lower plate fold outward like a seed shell, and one gold-white branching tendril stretches out across the still surfaces of a mirror-black salt bed. A pearl-white ripple lights up the cracks only where the tendril touches. Late-night dark violet and a focused pool of pearl white with antique warm gold. Asymmetric intimate emergence, no flying objects, no geometric diagram, no big explosion.",
+        "reference": "work/PuniMod/PuniMod/images/puni.png"
+      }
     },
     {
       "key": "StellarSweep",
@@ -1931,17 +1771,15 @@
       "Magic": 2,
       "MagicUp": 1,
       "Rule": "AttackAllWeak",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/16688.swf",
-      "sprite": 44,
-      "frame": 7,
-      "crop": [
-        1196,
-        674,
-        374,
-        246
-      ],
-      "sha256": "5f3234d317beb58cb0e4feb941bbeba1e395b7eeb2c0970a907e98ce7ecb8a33",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "c1feb9b1dafe441c96834ac92677537772549a5f288882b7da3bfb22b753288d",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A long slab-like ribbon of pale violet stars sweeps horizontally across an open indigo canyon erasing a row of three rocky silhouettes below. Very wide panoramic action, burnt peach haze under the stripe, no main circular object.",
+        "reference": null
+      }
     },
     {
       "key": "PerfectSeal",
@@ -1957,17 +1795,15 @@
       "MagicUp": 1,
       "Exhaust": true,
       "Rule": "BlockArtifact",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/11274.swf",
-      "sprite": 13,
-      "frame": 5,
-      "crop": [
-        28,
-        6,
-        550,
-        432
-      ],
-      "sha256": "de0b17d7f2cedd887e1ead42a27cb5e70143310980569aa263cb822fb77657e4",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "3137351f717cd77da50eacf6cdfe20fdfcef4f9534036fbb2bf958419dcba97c",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Create ONE finished full-bleed landscape fantasy card illustration for the Puni character mod for Slay the Spire 2. Use the attached Seer reference as the design of Puni only: the core is a thin golden double helix with six long branching gold-white tendrils, dark bronze petal-like plates with gold lines and eyes below, and cyan seal-light. Puni is a floating nonhumanoid spirit. Never give it a human face, arms, feathers, dragon face, or humanoid torso. Paint original anatomy in perspective, never paste the reference or default to the reference's frontal idle pose. Rich painterly fantasy with bold simplified shapes and textured edges, readable on a small screen. Landscape aspect 4:3 (final artwork slot 500x380), fill every edge, major forms in central 75%. Clear focal point. Absolutely no text, no numbers, no interface, no border, no floating cards, no separate ability pictograms. The mechanic should be felt through a scene or a material changing. Match the specific framing and visual action below.\n\nTight slight overhead crop in a moonless volcanic courtyard. Seen as broad interlocking shapes, the four bronze petals of Puni's own lower armor have turned and closed over its narrow golden helix like a hard husk; the single central hairline still leaks gold. The upper branching tendrils clasp the husk tightly. A surrounding ring of jagged black glass has splintered on contact with the armor, with fragments pointing harmlessly away. Black wine red, pewter, and a fine intensely gold seam. Quiet locked defensive stance with visible asymmetry. No door, keyhole, bolt, lock, or shield held by a hand.",
+        "reference": "work/PuniMod/PuniMod/images/puni.png"
+      }
     },
     {
       "key": "LightOfCreation",
@@ -1980,17 +1816,15 @@
       "Damage": 18,
       "DamageUp": 6,
       "Rule": "CreateLight",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10356.swf",
-      "sprite": 11,
-      "frame": 7,
-      "crop": [
-        126,
-        88,
-        456,
-        272
-      ],
-      "sha256": "bd77a899ec9ea1b4ab3244f02e7e9ab4a9cc2b50289fae47de3f0ca7ca1d47fe",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "2e80c8c2e4f0f13efbc41b0990077af8eb2640853c717c3b1ec29ecdc83822c6",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A large star-shaped white hot-plane splits rough black rock, flowers and crystalline new matter sprouting inside the opening along one diagonal. A late autumn forest in deep plum shadows, organic gold, lime and chalk. Tactile contrasting creation and impact.",
+        "reference": null
+      }
     },
     {
       "key": "FinalRadiance",
@@ -2005,17 +1839,15 @@
       "Magic": 2,
       "MagicUp": 1,
       "Rule": "Detonate",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10370.swf",
-      "sprite": 27,
-      "frame": 6,
-      "crop": [
-        190,
-        146,
-        282,
-        234
-      ],
-      "sha256": "65b668e1fc9ef95e0dac9379b15625655bb243f5881a67df505f7a18d3443e21",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "7af12235c1a7052a72e45ef9adc3da55160ff553f3e258b2575b70c8b5ea2839",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  An almost black figure made of stone in hard profile, totally split by a network of scar lines that flash golden-white as they burn away, every line points toward one off-centre core. A setting blue sun low at the far edge. Midnight ink, fuchsia fracture tails and white gold.",
+        "reference": null
+      }
     },
     {
       "key": "SolarHeart",
@@ -2028,17 +1860,15 @@
       "Magic": 2,
       "MagicUp": 1,
       "Rule": "SolarHeartPower",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/31141.swf",
-      "sprite": 34,
-      "frame": 14,
-      "crop": [
-        176,
-        204,
-        310,
-        302
-      ],
-      "sha256": "0061c78d312a2128209ca1917a8d9c3994350427235d8daef94b39f2790067cc",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "d133177b6046fb4a7eaf24975e44a1b5e6287536cad307b1fdd5dd3a13e3c0ad",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI. Heart of the Burning Sun, a power that grants Strength the first time each distinct seal triggers. A dark obsidian altar shaped like a rib cage curves around a living molten amber sun-heart; several different small stone seal fragments rotate around it in deliberate spaced orbits. Tight low-angle vertical-feeling composition within the landscape rectangle, no creature and no facial features. Ox-blood basalt, blush magenta sky and brilliant marigold core, with broad dark shadows. The organ-like sun is a tangible radiant object, not a flat ball of sparks.",
+        "reference": null
+      }
     },
     {
       "key": "SealSovereign",
@@ -2051,18 +1881,16 @@
       "Magic": 1,
       "MagicUp": 0,
       "Rule": "SealSovereignPower",
-      "source": "https://seer.61.com/resource/fightResource/pet/swf/1400714.swf",
-      "sprite": 928,
-      "frame": 20,
-      "crop": [
-        352,
-        812,
-        926,
-        754
-      ],
-      "sha256": "ee3e42888bd6e82d383eb00ba3cb9a47471f18e04fd013e67c5723c090af8326",
       "CostUp": -1,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "484a6d94c203b985351d6381719ede721722785973ac2758008ef7ce391e9e4a",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  The attached transparent Puni sprite is the character identity reference only; paint a fresh scene and never reproduce the sprite as a sticker. A lone faceless sacred spirit levitates above a sleek jade dais with a single repeating stream of tiny spirits feeding it from open seal stones at its feet. Layered deep cream fog, black jade and honey-yellow streaks. Shape stays clearly non-human and branching, tightly framed left.",
+        "reference": "work/PuniMod/PuniMod/images/puni.png"
+      }
     },
     {
       "key": "CycleOfStars",
@@ -2075,17 +1903,15 @@
       "Magic": 1,
       "MagicUp": 1,
       "Rule": "CycleOfStarsPower",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/31846.swf",
-      "sprite": 16,
-      "frame": 6,
-      "crop": [
-        1050,
-        644,
-        444,
-        338
-      ],
-      "sha256": "6049119dafd2cb244700e05a4f206b8179b6a8129ae49fe305cd7e69f9a7071f",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "a921403b901da2ac0d1690559eaf196c1c37bd6f3b58c0577c7b4aa5f940d958",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Original 500:380 landscape game card illustration, full bleed artwork only. Make one fresh hand-painted dark fantasy scene for a Slay the Spire 2 character mod, with confident silhouette shapes, textured paint, a slightly stylized illustrative game art finish, and clear foreground/middleground separation. The 500x380 card window crops the outer corners, so keep the story readable within the central 85%. At thumbnail scale the primary object must stand out. No frames, words, letters, numerals or UI.  A band of light stitches a crack in a foreground dark jade vessel at left; the same amount of light exits and strikes a hostile obsidian statuette far right, showing restoration becoming judgment. Teal and gold, warm raspberry rim, very clear spatial cause and effect.",
+        "reference": null
+      }
     },
     {
       "key": "DivineBulwark",
@@ -2098,17 +1924,15 @@
       "Magic": 2,
       "MagicUp": 1,
       "Rule": "DivineBulwarkPower",
-      "source": "https://seer.61.com/resource/fightResource/pet/swf/1400714.swf",
-      "sprite": 928,
-      "frame": 60,
-      "crop": [
-        414,
-        606,
-        1422,
-        944
-      ],
-      "sha256": "884e31dc9c2cc675dee492a3225b45a8ba008e82512f13002367ccd7534d5e43",
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "891b316f1eb232625290eae708e5ddbe5eeaecfcf0414902bcca4d74bffd4607",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Create ONE finished full-bleed landscape fantasy card illustration for the Puni character mod for Slay the Spire 2. Use the attached Seer reference as the design of Puni only: the core is a thin golden double helix with six long branching gold-white tendrils, dark bronze petal-like plates with gold lines and eyes below, and cyan seal-light. Puni is a floating nonhumanoid spirit. Never give it a human face, arms, feathers, dragon face, or humanoid torso. Paint original anatomy in perspective, never paste the reference or default to the reference's frontal idle pose. Rich painterly fantasy with bold simplified shapes and textured edges, readable on a small screen. Landscape aspect 4:3 (final artwork slot 500x380), fill every edge, major forms in central 75%. Clear focal point. Absolutely no text, no numbers, no interface, no border, no floating cards, no separate ability pictograms. The mechanic should be felt through a scene or a material changing. Match the specific framing and visual action below.\n\nPaint this like a close ground-level scene at an exposed rocky pass at dusk. Puni's curved gold-white tendrils weave across the foreground into a protective canopy, with the character's geometric bronze petal plates peeking in at upper left. Where amber beads of sacred light touch the strands, each junction welds into pale translucent layers like nacre, and coarse ash pebbles bounce off the exterior on the stormy right. Under the canopy a tiny pale plant stays untouched. Strong charcoal blue versus pearl honey, right-to-left storm motion, tangibly layered material, no brick wall, dome outline or generic shield emblem.",
+        "reference": "work/PuniMod/PuniMod/images/puni.png"
+      }
     },
     {
       "key": "PowerResonance",
@@ -2121,18 +1945,16 @@
       "Magic": 1,
       "CostUp": 0,
       "Rule": "PowerResonancePower",
-      "source": "https://seer.61.com/resource/fightResource/skill/swf/10372.swf",
-      "sprite": 51,
-      "frame": 10,
-      "crop": [
-        28,
-        26,
-        320,
-        378
-      ],
-      "sha256": "e7d4e3f5ddd75cbaadfc592acb4786232ec3f198ef6ac5b7002dafd5bdaac4de",
       "MagicUp": 1,
-      "HasX": false
+      "HasX": false,
+      "width": 500,
+      "height": 380,
+      "sha256": "60a4bb34be22c4049e6541c90f10713d4cef771f748f8de475ea9accaf3bb025",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "Create ONE finished full-bleed landscape fantasy card illustration for the Puni character mod for Slay the Spire 2. Use the attached Seer reference as the design of Puni only: the core is a thin golden double helix with six long branching gold-white tendrils, dark bronze petal-like plates with gold lines and eyes below, and cyan seal-light. Puni is a floating nonhumanoid spirit. Never give it a human face, arms, feathers, dragon face, or humanoid torso. Paint original anatomy in perspective, never paste the reference or default to the reference's frontal idle pose. Rich painterly fantasy with bold simplified shapes and textured edges, readable on a small screen. Landscape aspect 4:3 (final artwork slot 500x380), fill every edge, major forms in central 75%. Clear focal point. Absolutely no text, no numbers, no interface, no border, no floating cards, no separate ability pictograms. The mechanic should be felt through a scene or a material changing. Match the specific framing and visual action below.\n\nFrame a live moment in a dark evergreen grotto from above and approximately side-on. Only Puni's three gold tendril tips enter from the upper left, bent like tuning forks with flowing gold contour. One tip brushes the surface of a shallow mineral pool. A single sweeping ripple in the pool sets the rest of the tendrils glowing in succession, with the dark bronze eye armor barely reflected and a lime-gold light reflected back up onto the quiet tip. The movement must feel regenerative, one note feeding the next. Moss green, deep bottle green, cream and amber flecks. Tight asymmetric crop with the ripple diagonally crossing the frame, nothing mechanical or geometric.",
+        "reference": "work/PuniMod/PuniMod/images/puni.png"
+      }
     },
     {
       "key": "HolyOrigin",
@@ -2140,16 +1962,6 @@
       "cost": 1,
       "type": "Attack",
       "rarity": "Ancient",
-      "source": "https://seer.61.com/resource/fightResource/pet/swf/1400714.swf",
-      "sprite": 928,
-      "frame": 100,
-      "crop": [
-        384,
-        812,
-        1496,
-        772
-      ],
-      "sha256": "8312001a2a574a711614277843bd2b3cfb52bc6714c82877ac895aafdde7d074",
       "target": "AllEnemies",
       "description": "对所有敌人造成 {Damage:diff()} 点伤害。\n再对所有敌人造成 {Magic} 点固定伤害。\n抽 1 张牌。",
       "Damage": 40,
@@ -2157,7 +1969,15 @@
       "Magic": 20,
       "MagicUp": 10,
       "Extra": 1,
-      "HasX": false
+      "HasX": false,
+      "width": 606,
+      "height": 852,
+      "sha256": "a29e6d18f575382492253ae0177be1db82a311d8758b6871c599efbdff576b72",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "One original dark fantasy game illustration for an Ancient full-bleed card, vertical 606:852 ratio. Painterly colour, bold silhouette, strong game thumbnail legibility. Artwork only. No typography, logos, UI, frame, readable glyphs or card borders. Lower third should remain darker and soft for gameplay rules.  The attached transparent Puni sprite is the character identity reference only; paint a fresh scene and never reproduce the sprite as a sticker. Ancient full-card vertical illustration. An original faceless non-humanoid Puni spirit crowned by branching ivory-gold tendrils and hanging bronze-gold petal shields remains small high in the composition while a massive column of holy light merges scattered jade, coral, lapis and gold energy across an immense cliffside arena. Golden hour pale amber, dark mauve cliffs, faint cool contrast. Keep the highest visual focus in the upper-middle 55%, darken the lowest 36% for game rules. Full-bleed 606:852 portrait artwork.",
+        "reference": "work/PuniMod/PuniMod/images/puni.png"
+      }
     },
     {
       "key": "BookOfEternity",
@@ -2165,23 +1985,21 @@
       "cost": 1,
       "type": "Power",
       "rarity": "Ancient",
-      "source": "https://seer.61.com/resource/fightResource/pet/swf/1400714.swf",
-      "sprite": 986,
-      "frame": 30,
-      "crop": [
-        368,
-        336,
-        426,
-        484
-      ],
-      "sha256": "bf1eef2c4b768c0f466792353f421899c7d060379064cfd28eb2d485535c7085",
       "target": "Self",
       "description": "解放全部七重封印。\n抽 {Magic} 张牌，获得 {Extra} 点能量。",
       "Magic": 3,
       "MagicUp": 2,
       "Extra": 1,
       "ExtraUp": 1,
-      "HasX": false
+      "HasX": false,
+      "width": 606,
+      "height": 852,
+      "sha256": "5a5970bbd5cd53b088a2730379715eea064f579b1989c4c85a89473dd0845414",
+      "artwork": {
+        "method": "ImageGen",
+        "prompt": "One original dark fantasy game illustration for an Ancient full-bleed card, vertical 606:852 ratio. Painterly colour, bold silhouette, strong game thumbnail legibility. Artwork only. No typography, logos, UI, frame, readable glyphs or card borders. Lower third should remain darker and soft for gameplay rules.  Ancient full-card vertical illustration. A monumental open book of dark cyan crystal and aged white vellum, floating on its axis above a gentle turquoise abyss; exactly seven distinct carved stone clasps have unfurled from its spine and ascend like a procession above it. No written script on the pages, just a sparse embossed design. Sea-glass green, pearl, and deep saturated navy. Tangible book clearly dominates upper-middle 55%, darken bottom 36% for rules. Full-bleed 606:852 portrait art.",
+        "reference": null
+      }
     }
   ]
 }
